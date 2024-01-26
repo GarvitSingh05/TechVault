@@ -7,8 +7,8 @@ This repository contains all the notes created by me during my Computer Science 
 5. [Parallel Computing](https://github.com/GarvitSingh05/computer-science-notes/blob/main/Parallel%20Computing/Parallel%20Computing.md)  
 6. [Virtualization](https://github.com/GarvitSingh05/computer-science-notes/blob/main/Virtualisation/Virtualisation.md)  
 7. Cloud Computing  
+8. [Operating Systems](https://github.com/GarvitSingh05/computer-science-notes/blob/main/Operating%20Systems/Operating%20System%20Notes.md)  
 
 ## Coming Up in Future
-• Operating Systems  
 • Software Testing  
 
