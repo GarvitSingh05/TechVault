@@ -1,8 +1,8 @@
 # Software Testing
-## Principles, Practices & Techniques
-### By Garvit Singh
+# Principles, Practices & Techniques
+# By Garvit Singh
  
-###### The Fundamental Principles Of Testing
+## The Fundamental Principles Of Testing
 1. The goal of testing is to find defects before customers find them out.
 2. Exhaustive testing is not possible; program testing can only show the presence of defects, never their absence.
 3. Testing applies all through the software life cycle and is not an end-of-cycle activity.
@@ -54,9 +54,8 @@
 - Train people first before expecting them to be productive.
 - Do not expect overnight returns from automation.
 
-<div style="page-break-after: always;"></div>
 
-###### Software Development Life Cycle Models
+## Software Development Life Cycle Models
 6 Phases of a Software Project
 - Requirements gathering and analysis
 - Planning
@@ -106,9 +105,7 @@
 - Adaptive maintenance can be like making the software run on a newer version of an operating system.
 - Preventive maintenance is about changing the code to avoid a potential security hole that is not covered by the operating system.
 
-<div style="page-break-after: always;"></div>
-
-###### Difference In Quality Assurance & Quality Control
+## Difference In Quality Assurance & Quality Control
 For each software feature, the *expected behaviour* is characterized by a set of test cases. Each test case is characterized by :
 1. The environment under which the test case is to be executed.
 2. Inputs that should be provided for that test case.
@@ -155,9 +152,8 @@ Two methods for ensuring that the chances of the product meeting its requirement
 | 4. To build the product right, certain activities or conditions or procedures are imposed at the beginning of life cycle. These activities are considered '*proactive*' as their purpose is to prevent defects before they take shape. The process activities in each phase is termed as verification. | 4. To build the right product, certain activites are carried out during various phases to validate wether the product is built as per specifications. These activites are considered '*reactive*'. |
 | 5. Ex - Requirements review, design review, code review etc. | 5. Ex - Unit testing, Integration testing, System testing etc. |
 
-<div style="page-break-after: always;"></div>
 
-###### Process Models To Represent Phases
+## Process Models To Represent Phases
 A process model is a way to represent each phase of a software project and is characterized by :
 1. Entry criteria specifies when the phase can be started. Inputs for the phase are also included. A clear entry criteria makes sure that a phase doesn't start prematurely.
 2. Tasks or steps that need to be carried out in that phase. 
@@ -166,9 +162,8 @@ A process model is a way to represent each phase of a software project and is ch
 4. Exit criteria specifies conditions under which one can consider the phase as done. Outputs are also included.
 This model is known as the **E**ntry **T**ask **V**erification E**x**it or ETVX Model.
 
-<div style="page-break-after: always;"></div>
 
-###### Life Cycle Models
+## Life Cycle Models
 A life cycle model describes how the phases combine together to form a complete project or life cycle. Such a model is characterized by the following attributes :
 1. The activities performed
 2. The deliverables from each activity.
@@ -176,42 +171,36 @@ A life cycle model describes how the phases combine together to form a complete 
 4. The sequence of activities.
 5. Methods of verification of each activity, including the mechanism of communication amongst the activities.
 
-<div style="page-break-after: always;"></div>
 
 Some Life Cycle Models include :
 1. Waterfall Model
 
 ![](https://i.imgur.com/awhN3Rt.png)
 
-<div style="page-break-after: always;"></div>
 
-2. Prototyping Model
-3. Rapid Application Development(RAD) Models
+1. Prototyping Model
+2. Rapid Application Development(RAD) Models
 
 ![](https://i.imgur.com/w7hHERR.png)
 
-<div style="page-break-after: always;"></div>
 
-4. Spiral or Iterative Model
+1. Spiral or Iterative Model
 
 ![](https://i.imgur.com/TSiQYSW.png)
 
-<div style="page-break-after: always;"></div>
 
-5. The V Model
+1. The V Model
 
 ![](https://i.imgur.com/2fuBxTE.png)
 
-<div style="page-break-after: always;"></div>
 
-6. Modified V Model
+1. Modified V Model
 
 ![](https://i.imgur.com/19y0EH4.png)
 
-<div style="page-break-after: always;"></div>
 
-### Types Of Testing
-###### White Box Testing
+# Types Of Testing
+## White Box Testing
 ![](https://i.imgur.com/D0uk6Dy.png)
 
 - White box testing is a way of testing the external functionality of the code by examining and testing the program code that realizes the external functionality.
@@ -221,18 +210,16 @@ Some Life Cycle Models include :
 - Knowing which code paths should be exercised for a given test enables making necessary changes to ensure that appropriate paths are covered.
 - WBT is classified into two type - *Static* & *Structural* Testing
 
-<div style="page-break-after: always;"></div>
 
-**Static Testing**
+**Static Testing**  
 Requires only the source code of the product, not the binaries or executables. Can be done manually by humans or by using specialized tools. Static testing doesn't involve executing the programs but involves select people going through the code to find out wether :
 1. The code works according to functional requirement.
 2. The code has been written in accordance with the design developed earlier in the project life cycle.
 3. The code for any functionality has been missed out.
 4. The code handles errors properly.
 
-<div style="page-break-after: always;"></div>
 
-**Static Testing By Humans**
+**Static Testing By Humans**  
 Relies on people reading the program code to detect errors rather than computers executing the code to find errors. The advantages include :
 1. Sometimes humans can find errors that machines cannot. This can happen when the program has no errors in syntax and runs error free, but has logical errors, like making use of the wrong variable.
 2. By making multiple people read the program, we can get multiple perspectives and have more problems identified than a computer could.
@@ -248,33 +235,30 @@ Methods to achieve static testing by humans in increasing order of formalism :
 3. Code Review
 4. Code Inspection
 
-<div style="page-break-after: always;"></div>
 
-**Desk Checking**
+**Desk Checking**  
 Done manually by authors of the code, this is a method to verify portions of code for correctness. The code is compared with the design specifications to make sure the code does what it is intended to do. Desk checking relies completely on the programmer's diligence and skills. This method is characterized by:
 1. No structured method or formalism to ensure completeness.
 2. No maintaining of a log or checklist.
 
-==*Advantages*==
+*Advantages*  
 1. Programmer who knows the code and the programming language well can read and understand his own code very well.
 2. There are few schedulings and logistics over-heads as it is done by one individual.
 3. The defects are detected and corrected with minimum time delay.
 
-==*Disadvantages*==
+*Disadvantages*  
 1. A developer is not the best person to detect problems in his or her own code. They may be tunnel visioned and have blind spots to certain types of problems.
 2. Developers prefer to write new code rather than do any testing.
 3. This method is essentially person dependent and informal, and thus may not work consistently across all developers.
 
-<div style="page-break-after: always;"></div>
 
-**Code Walkthrough**
+**Code Walkthrough**  
 Walkthroughs are group-oriented and less formal than inspections. The line drawn between walkthroughs and inspections is very thin and varies from one organisation to another.
 
 In walkthroughs, a set of people look at the program code and raise questions for the author. The author explains the logic of the code and answers the questions. If the author is unable to answer some questions, he or she takes those questions and find their answers.
 
-<div style="page-break-after: always;"></div>
 
-**Formal Inspection**
+**Formal Inspection**  
 Code Inspection, also called Fagan Inspection, is a method with high degree of formalism. The focus is to detect all faults, violations, and other side-effects. The number of defects detected increases by :
 1. Demanding thorough preparation before an inspection/review.
 2. Enlisiting multiple diverse views.
@@ -282,6 +266,7 @@ Code Inspection, also called Fagan Inspection, is a method with high degree of f
 4. Going sequentially through the code in a structured manner.
 
 A formal inspection takes place only when the author has made sure the code is ready for inspection by performing basic desk checking and walkthroughs. There has to be a level of readiness in the code before an inspection meeting is arranged. There are four roles in the inspection :
+
 1. *Author*, who writes the code.
 2. *Moderator*, who is expected to run the inspection formally according to the process.
 3. *Inspectors*, there are typically many of them, and together they review the code.
@@ -295,9 +280,8 @@ Challenges in conducting formal inspections:
 
 Portions of code can be classified on the basis of their criticality or complexity as 'High', 'Medium' or 'Low'. High or medium complex or critical code should be subjected to formal inspections. The low complexity code can do with walkthroughs or even desk checking.
 
-<div style="page-break-after: always;"></div>
 
-**Static Analysis Tools**
+**Static Analysis Tools**  
 Static analysis tools can find errors such as:
 1. Wether there are unreachable codes.
 2. Variables declared but not used.
@@ -309,26 +293,25 @@ Static analysis tools can find errors such as:
 
 These static analysis tools can also be considered as an extension of compliers as they use the same concept and implementation to locate errors. A good compiler is also a static analysis tool.
 
-<div style="page-break-after: always;"></div>
 
-**Code Review Checklist**
+**Code Review Checklist**  
 Every organization develops it's own code review checklist. In multi-product organizations, the checklist may be at two levels, first an organization wide checklist that will include issues such as organization coding standards, documentation standards, second, a product or project specific checklist that addresses issues specific to the product. The checklist is as follows:
 
-==Data Item Declaration Related==
+Data Item Declaration Related  
 - Are the names of the variables meaningful?
 - If the programming language allows mixed case names, are there variable names with confusing use of lower case letters and capital letters?
 - Are the variables initialized?
 - Are there similar sounding names?
 - Are all the common structures, constants and flags to be used defined in a header file rather than in each file separately?
 
-==Data Usage Related==
+Data Usage Related  
 - Are values of right data types being assigned to the variables?
 - Is the access of data from any standard files, repositories, or databases done through publicly supported interfaces?
 - If pointers are used, are they initialized correctly?
 - Are bounds to array subscripts and pointers properly checked?
 - Has the usage of similar looking operators(like = and == or & and &&) checked?
 
-==Control Flow Related==
+Control Flow Related  
 - Are all the conditional paths reachable?
 - Are all the individual conditions in a complex condition separately evaluated?
 - If there is a nested IF statement, are the THEN and ELSE parts properly delimited?
@@ -338,26 +321,25 @@ Every organization develops it's own code review checklist. In multi-product org
 - Are there any loops where the final condition will never be met and hence cause the program to go into an infinite loop?
 - What is the level of nesting of the conditional statements? Can the code be simplified to reduce complexity?
 
-==Standards Related==
+Standards Related
 - Does the code follow the coding conventions of the organization?
 - Does the code follow any coding conventions that are platform specific?
 
-==Style Related==
+Style Related
 - Are unhealthy programming constructs being used in the program?
 - Is there usage of specific idiosyncrasies of a particular machine architecture or a given version of an underlying product?
 - Is sufficient attention being paid to readability issues like indentation of code?
 
-==Miscellaneous==
+Miscellaneous
 - Have you checked for memory leaks?
 
-==Documentation Related==
+Documentation Related
 - Is the code adequately documented, especially where the logic is complex or the section of code is critical for product functioning?
 - Is appropriate change history documented?
 - Are the interfaces and the parameters thereof properly documented?
 
-<div style="page-break-after: always;"></div>
 
-**Structural Testing**
+**Structural Testing**  
 Structural testing takes into account the code, code structure, internal design, and how they are coded. These tests are run by the computer on the built product, unlike static testing which is tested by humans.
 
 It involves running the actual product against some pre-designed test cases. Further classified into:
@@ -365,14 +347,14 @@ It involves running the actual product against some pre-designed test cases. Fur
 2. Code Coverage Testing
 3. Code Complexity Testing
 
-==Unit/Code Functional Testing==
+*Unit/Code Functional Testing*  
 These are some quick checks that a developer performs before subjecting the code to more extensive code coverage testing or code complexity testing.
 1. Initially, the developer can perform certain obvious tests, knowing the input variables and the corresponding output values. Repeat this test for multiple input values. This can also be done prior to formal reviews in static testing.
 2. For more complex logic or conditions, the developer can build a '*debug version*' of the product by putting intermediate print statements and making sure the program is passing through the right loops and iterations the right number of times. The print statements are removed after the defects are removed.
 3. Another approach is to do the initial test to run the product under a debugger or an IDE. These tools allow single stepping of instructions.
 These fall more into the '*debugging*' category rather than testing.
 
-==Code Coverage Testing==
+*Code Coverage Testing*  
 Code coverage testing involves designing and executing test cases and finding out the percentage of code that is covered by the testing. The percentage of code covered by a test is found by adopting a technique called *instrumentation* of code.
 
 Instrumentation rebuilds the product, linking the product with a set of libraries provided by the tool vendors. This instrumented code can monitor and keep an audit of what portions are covered.
@@ -390,9 +372,7 @@ Few other uses of code coverage testing include:
 4. Identifying memory leaks.
 5. Dynamically generated code.
 
-<div style="page-break-after: always;"></div>
-
-==Code Complexity Testing==
+*Code Complexity Testing*  
 Cyclomatic complexity is a metric that quantifies the complexity of a program. A program is represented in the form of a *flow graph*, which consists of *node* and *edges*.
 
 ![](https://i.imgur.com/4XOkRH7.png)
@@ -413,7 +393,6 @@ Cyclomatic Complexity = Edges(E) - Node(N) + 2 = Number of Predicate Nodes + 1
 | 20 - 40 | Very complex, testability is low, cost/effort to maintain is high. |
 | > 40 | Not testable, any amount of money/effort to maintain may not be enough. |
 
-<div style="page-break-after: always;"></div>
 
 **Challenges In White Box Testing**
 - White box testing requires sound knowledge of the program code and the programming language.
@@ -423,10 +402,9 @@ Cyclomatic Complexity = Edges(E) - Node(N) + 2 = Number of Predicate Nodes + 1
 - Fully tested code may not correspond to realistic scenarios.
 - This doesn't mean white box testing is ineffective. These challenges can be overcome by involving other types of testing along with white box testing.
 
-<div style="page-break-after: always;"></div>
 
-###### Black Box Testing
-==What is Black Box Testing?==
+## Black Box Testing
+*What is Black Box Testing?*  
 - Black box testing is done to know the external functionality of what the product should do.
 - Doesn't look at the program code but looks at the product from an external perspective.
 - Done without the knowledge of internals of system under test.
@@ -434,16 +412,15 @@ Cyclomatic Complexity = Edges(E) - Node(N) + 2 = Number of Predicate Nodes + 1
 - The test engineer engaged in BBT only knows set of inputs and expected outputs, and is unaware of how these inputs are processed internally by the product.
 - Convenient to administer because they use the complete finished product and do not require any knowledge of its construction.
 
-==Why Black Box Testing?==
+*Why Black Box Testing?*  
 BBT helps in overall functionality verification of the system under test.
 1. Done based on requirements. Helps in identifying any incomplete, inconsistent requirements or issues involved when the system is tested as a complete entity.
 2. Addresses the stated requirements as well as implied requirements. All requirements are not stated explicitly, but are deemed implicit.
 3. Encompasses the end user perspectives.
 4. Handles valid and invalid inputs.
 
-<div style="page-break-after: always;"></div>
 
-==When To Do Black Box Testing?==
+*When To Do Black Box Testing?*  
 - BBT requires involvement of the testing team right from the beginning of the software project life cycle. 
 - Testers get involved right from requirements gathering phase. 
 - Test scenarios and test data are prepared during the test construction phase of the test life cycle, when the software is in design phase.
@@ -451,9 +428,8 @@ BBT helps in overall functionality verification of the system under test.
 - All the test scenarios developed during the construction phase are executed.
 - A subset of these test scenarios are selected for regression testing.
 
-<div style="page-break-after: always;"></div>
 
-==How To Do Black Box Testing?==
+*How To Do Black Box Testing?*  
 BBT exploits specifications to generate test cases in a methodical way to avoid redundancy and to provide better coverage. The techniques include :
 1. Requirements Based Testing
 2. Positive Testing
@@ -466,9 +442,8 @@ BBT exploits specifications to generate test cases in a methodical way to avoid 
 9. User Documentation Testing
 10. Domain Testing
 
-<div style="page-break-after: always;"></div>
 
-**Requirements Based Testing**
+**Requirements Based Testing**  
 - Requirements testing deals with validating the requirements given in the Software Requirements Specification(SRS) of the software product.
 - Explicit requirements are stated and documented clearly in the SRS. Implied or implicit requirements are those that are not documented but assumed to be incorporated in the system.
 - Precondition is a detailed review of the requirements specifications to ensure they are consistent, correct, complete and testable.
@@ -503,7 +478,6 @@ Once the test cases are executed, the test results can be used to collect metric
 
 These metrics can also be displayed graphically to better visualize what we are dealing with.
 
-<div style="page-break-after: always;"></div>
 
 **Positive Testing**
 - Positive testing tries to prove that a given product does what it is supposed to do.
@@ -512,7 +486,6 @@ These metrics can also be displayed graphically to better visualize what we are 
 - A product delivering an error when it is expected to give an error, is also a part of positive testing.
 - Positive testing is done to verify the known test conditions.
 
-<div style="page-break-after: always;"></div>
 
  **Negative Testing**
  - Negative testing is done to show that the product does not fail when an unexpected input is given.
@@ -523,7 +496,6 @@ These metrics can also be displayed graphically to better visualize what we are 
 
 The difference between Positive and negative testing is in their coverage. For positive testing, if all documented requirements and test conditions are covered, then coverage can be said to be 100 percent. In contrast, there is no end to negative testing, and 100 percent coverage is impractical. Negative testing requires a high degree of creativity among the testers to cover as many unknowns as possible to avoid failure.
 
-<div style="page-break-after: always;"></div>
 
 **Boundary Value Analysis**
 - Most of the defects in software product hover around *conditions* and *boundaries*. Boundaries means the 'limits' of values of the various variables.
@@ -536,9 +508,8 @@ The difference between Positive and negative testing is in their coverage. For p
 - BVA applies for white box testing as well. Internal data structures like arrays, stacks etc need to be checked for boundary or limit conditions. The way linked lists behave in the beginning and ending have to be tested thoroughly.
 - Boundary values and decision tables help identify the test cases that are most likely to uncover defects. A generalization of both these concepts is the concept of *equivalence classes*.
 
-<div style="page-break-after: always;"></div>
 
-**Decision Tables**
+**Decision Tables**  
 A *decision table* lists the various decision variables, the conditions assumed by each of the decision variables, and actions to take in each combination of conditions.
 
 The steps in forming a decision table are as follows:
@@ -549,7 +520,6 @@ The steps in forming a decision table are as follows:
 5. For each combination of values of decision variables, list out the action or expected result.
 6. From a table, listing in each but the last column a decision variable. In the last column, list the action item for the combination of variables in that row, including dont cares, as appropriate.
 
-<div style="page-break-after: always;"></div>
 
 **Equivalence Partitioning**
 - Equivalence partitioning is a software testing technique that involves identifying a small set of representative input values that produce many different outputs conditions as possible.
@@ -575,9 +545,8 @@ The steps to prepare an equivalence partitions table are:
 6. Check to have expected results for all the cases prepared.
 7. If the expected result is not clear for any particular test case, mark it and escalate for corrective actions.
 
-<div style="page-break-after: always;"></div>
 
-**State Based or Graph Based Testing**
+**State Based or Graph Based Testing**  
 State or graph based testing is useful in situations where:
 1. The product under test is a language processor(like a compiler), wherein the syntax of the language automatically lends itself to a state machine.
 2. Workflow modeling, where, depending on the current state and appropriate combinations of input variables, specific workflows are carried out, resulting in new output and state.
@@ -590,9 +559,8 @@ A general outline for using state based testing methods with respect to language
 2. Design test cases corresponding to each valid state-input combination.
 3. Design test cases corresponding to the most common invalid combinations of state-input.
 
-<div style="page-break-after: always;"></div>
 
-**Compatibility Testing**
+**Compatibility Testing**  
 Compatibility Testing(CT) is done to ensure that the product features work consistently with different infrastructure components is called compatibility testing. Requires high degree of effort as there are a large number of parameter combinations.
 
 The parameters that generally affect the comptability of the product are:
@@ -617,9 +585,8 @@ Compatibility testing of a product involving parts of itself can be classified i
 1. Backward compatibility testing
 2. Forward compatibility testing
 
-<div style="page-break-after: always;"></div>
 
-**User Documentation Testing**
+**User Documentation Testing**  
 User documentation covers all the manuals, user guides, installation guides, setup guides, read me file, software release notes, and online help that are provided along with the software to help the end user to understand the software system.
 
 User documentation testing has two objectives:
@@ -633,7 +600,6 @@ Benefits of user documentation testing include:
 4. New programmers and testers who join a project group can use the documentation to learn the external functionality of the product.
 5. Customers need less training and can proceed more quickly to advanced training and product usage if the documentation is of high quality and is consistent with the product.
 
-<div style="page-break-after: always;"></div>
 
 **Domain Testing**
  - Domain testing goes beyond white box and black box testing, where we do not even look at the specifications of a software product but are testing the product, purely based on domain knowledge and expertise in the domain of application.
@@ -656,9 +622,8 @@ Benefits of user documentation testing include:
 | To test domain expertise rather than product specification. | Domain Testing |
 | To ensure that the documentation is consistent with the product. | Documentation Testing |
 
-<div style="page-break-after: always;"></div>
 
-###### Integration Testing
+## Integration Testing
 - A system is made up of multiple components or modules comprising hardware and software.
 - Integration is defined as the set of interactions among components.
 - Testing the interaction between the modules and interaction with other systems externally is called integration testing.
@@ -685,7 +650,6 @@ Step Interfaces tested
 - To optimize the number of steps in integration testing, steps 6 and 7 can be combined and executed as a single step.
 - Similarly, steps 8 and 9 also can be combined and tested in a single step.
 
-<div style="page-break-after: always;"></div>
 
 **Bottom-Up Integration**
 ![](https://i.imgur.com/0cR7thv.png)
@@ -702,7 +666,6 @@ Step Interfaces tested
 
 - Bottom-up integration is just the opposite of top-down integration, where the components for a new product development become available in reverse order, starting from the bottom.
 
-<div style="page-break-after: always;"></div>
 
 **Bi-Directional Integration**
 ![](https://i.imgur.com/REtTbBD.png)
@@ -716,9 +679,8 @@ Step Interfaces tested
 - Bi-directional integration is a combination of the top-down and bottom-up integration together to derive integration steps.
 - Comes handy when migrating from a two-tier to a three-tier environment.
 
-<div style="page-break-after: always;"></div>
 
-**System Integration**
+**System Integration**  
 System integration means that all the components of the system are integrated and tested as a single unit.
 
 Integration testing, which is testing of interfaces, can be divided into two types:
@@ -746,7 +708,6 @@ Choosing Integration Method
 | Changing architecture, stable design. | Bi-directional |
 | Limited changes to existing architecture with less impact. | Big bang |
 
-<div style="page-break-after: always;"></div>
 
 **Integration Testing as a Phase of Testing**
 - Starts from the point where two components can be tested together, to the point where all the components work together as a complete system, delivering the product functionality.
@@ -755,7 +716,6 @@ Choosing Integration Method
 - Focuses on interfaces as well as usage flow.
 - When the functionality of different components are combined and tested together for a sequence of related operations, they are called *scenarios.*
 
-<div style="page-break-after: always;"></div>
 
 **Scenario Testing**
 - Scenario testing is a planned activity to explore different usage patterns and combine them into test cases called scenario test cases.
@@ -763,9 +723,8 @@ Choosing Integration Method
 - It is also defined as the testing involving customer scenarios.
 - Two methods to create scenarios : System Scenarios & Use-case/Role-based Scenarios
 
-<div style="page-break-after: always;"></div>
 
-==*System Scenarios*==
+*System Scenarios*  
 System scenario is a method whereby the set of activities used for scenario testing covers several components in the system. Follow these approaches : 
 1. Story line - Develop a story line that combines various activities of the product that may be executed by an end user.
 2. Life cycle/state transition - Consider an object, derive the different transitions/modifications that happen to the object, and derive scenarios to cover them.
@@ -774,10 +733,9 @@ System scenario is a method whereby the set of activities used for scenario test
 5. Battle ground - Create some scenarios to justify that “the product works” and some scenarios to “try and break the system” to justify “the product doesn't work.”
 6. These approaches have to be used in combination, not in isolation
 
-==*Use Case Scenarios*==
+*Use Case Scenarios*  
 A use case scenario is a stepwise procedure on how a user intends to use a system, with different user roles and associated parameters.
 
-<div style="page-break-after: always;"></div>
 
 **Defect Bash**
 1. Defect bash is an ad hoc testing where people performing different roles in an organization test the product together at the same time.
@@ -785,9 +743,8 @@ A use case scenario is a stepwise procedure on how a user intends to use a syste
 3. The testing by all the participants during defect bash is not based on written test cases.
 4. What is to be tested is left to an individual's decision and creativity.
 
-<div style="page-break-after: always;"></div>
 
-==Good Practices Encouraged By Defect Bash==
+*Good Practices Encouraged By Defect Bash*  
 1. Enabling people cross boundaries and test beyond assigned areas.
 2. Bringing different people performing different roles together in the organization for testing. Testing isn't for testers alone.
 3. Letting everyone in the organization use the product before delivery.
@@ -796,7 +753,6 @@ A use case scenario is a stepwise procedure on how a user intends to use a syste
 6. Let testing doesn't wait for lack of/time taken for documentation.
 7. Enabling people to say “system works” as well as enabling them to “break the system”.
 
-<div style="page-break-after: always;"></div>
 
 All the activities in the defect bash are planned activities, except for what to be tested. It involves several steps:
 1. Choosing the frequency and duration of defect bash.
@@ -806,9 +762,8 @@ All the activities in the defect bash are planned activities, except for what to
 5. Taking actions and fixing issues.
 6. Optimizing the effort involved in defect bash.
 
-<div style="page-break-after: always;"></div>
 
-###### System Testing
+## System Testing
 - System testing is defined as a testing phase conducted on the complete integrated system, to evaluate the system compliance with its specified requirements.
 - It is done after unit, component, and integration testing phases.
 - The testing conducted on the complete integrated products and solutions to evaluate system compliance with specified requirements on functional and nonfunctional aspects is called system testing.
@@ -816,13 +771,12 @@ All the activities in the defect bash are planned activities, except for what to
 - System testing is the only phase of testing which tests the both functional and non-functional aspects of the product.
 - Two types - Functional & Non-Functional.
 
-==*What is a System?*==
+*What is a System?*  
 - A system is a complete set of integrated components that together deliver product functionality and features.
 - A system can also be defined as a set of hardware, software, and other parts that together provide product features and solutions.
 
-<div style="page-break-after: always;"></div>
 
-==*Why is System Testing Done?*==
+*Why is System Testing Done?*  
 For these reasons:
 1. Provide independent perspective in testing
 2. Bring in customer perspective in testing
@@ -833,7 +787,6 @@ For these reasons:
 7. Analyze and reduce the risk of releasing the product
 8. Ensure all requirements are met and ready the product for acceptance testing.
 
-<div style="page-break-after: always;"></div>
 
 **Functional Testing vs Non Functional Testing**
 
@@ -850,7 +803,6 @@ For these reasons:
 | Test case repeatability | Repeated many times | Repeated only in case of failures and for different configurations |
 | Configuration | One-time setup for a set of test cases | Configuration changes for each test case |
 
-<div style="page-break-after: always;"></div>
 
 **Functional System Testing**
 - Functional testing is performed at different phases, two problems arise : *Duplication* & *Gray area*.
@@ -858,7 +810,6 @@ For these reasons:
 - *Gray area* refers to certain tests being missed out in all the phases.
 - Gray areas in testing happen due to lack of product knowledge, lack of knowledge of customer usage, and lack of co-ordination across test teams.
 
-<div style="page-break-after: always;"></div>
 
 Ways system functional testing is performed:
 1. Design/architecture verification
@@ -867,9 +818,8 @@ Ways system functional testing is performed:
 4. Beta testing
 5. Certification, standards, and testing for compliance.
 
-<div style="page-break-after: always;"></div>
 
-==*Design/Architecture Verification*==
+*Design/Architecture Verification*  
 Helps in validating the product features that are written based on customer scenarios and verifying them using product implementation
 
 Certain test cases are identified and moved to earlier phases of testing like integration or component testing to catch defects early and avoid any major defects later.
@@ -881,9 +831,8 @@ Guidelines used to reject test cases:
 4. Is it focusing on product implementation but not visible to customers? This is focusing on implementation - to be covered in unit/component/integration testing.
 5. Is it the right mix of customer usage and product implementation? Customer usage is a prerequisite for system testing.
 
-<div style="page-break-after: always;"></div>
 
-==*Business Vertical Testing*==
+*Business Vertical Testing*  
 *Overview*
 - General-purpose products like workflow automation systems are designed to cater to various businesses and services.
 - Business vertical testing involves adapting and testing the product for different industry verticals such as insurance, banking, and asset management.
@@ -910,15 +859,13 @@ Guidelines used to reject test cases:
 - Simulation involves assuming requirements and testing the business flow
 - Replication involves obtaining customer data and customizing the product accordingly.
 
-<div style="page-break-after: always;"></div>
 
 *Scenario Testing in Integration and System Phases*
 - Integration testing creates business vertical scenarios, focusing on interfaces and interactions.
 - System testing evaluates business verticals in a real-life customer environment, considering customization, terminology, and syndication aspects.
 
-<div style="page-break-after: always;"></div>
 
-==*Deployment Testing*==
+*Deployment Testing*  
 1. Overview
     - System testing is the final phase before product delivery.
     - Ensures that customer deployment requirements are met, assessing short-term success or failure based on customer satisfaction.
@@ -931,14 +878,13 @@ Guidelines used to reject test cases:
     - Conducted after the release of the product at customers' locations.
     - Involves collaboration between the product development organization and the organization using the product.
 
-==*Stages of Onsite Deployment Testing*==
+*Stages of Onsite Deployment Testing*  
 Stage 1
 - Mirrored deployment machines with similar configurations are set up.
 - Actual data from the live system is taken, and user operations are rerun on the mirrored deployment machine.
 - Verifies whether the enhanced or similar product can perform existing functionality without affecting users.
 - Intelligent recorders may be used to maintain identical mirrored and live systems regarding business transactions.
 
-<div style="page-break-after: always;"></div>
 
 Stage 2
 - Mirrored system from Stage 1 is made a live system running the new product.
@@ -946,9 +892,8 @@ Stage 2
 - Recorded transactions from the mirrored system are preserved with the old live system as a fallback.
 - If no failures are observed in this stage for an extended period, the onsite deployment is considered successful, and the old live system is replaced by the new system.
 
-<div style="page-break-after: always;"></div>
 
-==*Beta Testing*==
+*Beta Testing*  
 Sending the product that is under test to the customers and receiving the feedback is called beta testing.
 
 During the entire duration of beta testing, there are various activities that are planned and executed according to a specific schedule. This is called a *beta program*.
@@ -966,9 +911,8 @@ beta program are as follows:
 9. Communicate the progress and action items to customers and formally closing the beta program.
 10. Incorporating the appropriate changes in the product.
 
-<div style="page-break-after: always;"></div>
 
-==*Certification, Standards and Testing for Compliance*==
+*Certification, Standards and Testing for Compliance*  
 - A product needs to be certified with the popular hardware, operating system, database, and other infrastructure pieces. This is called certification testing.
 - There are many standards for each technology area and the product may need to conform to those standards.
 - This is very important as adhering to these standards makes the product interact easily with other products.
@@ -981,22 +925,18 @@ beta program are as follows:
 - Repeating non-functional test cases involves more time, effort, and resources, the process for non-functional testing has to be more robust and stronger than functional testing to minimize the need for repetition.
 - This is achieved by having more stringent entry/exit criteria, better planning, and by setting up the configuration with data population in advance for test execution.
 
-<div style="page-break-after: always;"></div>
 
-==*Set Up The Configuration*==
+*Set Up The Configuration*  
  - Two ways setup is done : simulated environment and real-life customer environment.
  - Setting up a scenario that is exactly real-life is difficult.
  - Simulated setup is used for non-functional testing where actual configuration is difficult to get.
  - In order to create a “near real-life” environment, details of customer's hardware setup, deployment information and test data are collected in advance.
 
-<div style="page-break-after: always;"></div>
 
-==*Come up with Entry/Exit Criteria*==
+*Come up with Entry/Exit Criteria*  
 Entry and exit criteria are decided for various test cases based on parameters like Maximum limits, response time, throughput, latency, failures per iteration, failures per test duration, stressing the system beyond limits and so on.
 
-<div style="page-break-after: always;"></div>
-
-==*Balancing Key Resources*==
+*Balancing Key Resources*  
 4 key resources - CPU, Disk, Memory and Network. They need to be judiciously balanced to enhance the quality factors of the product.
 
 Basic assumptions that can be made about resources and configuration:
@@ -1012,9 +952,8 @@ Basic assumptions that can be made about resources and configuration:
 10. The product can behave differently for non-functional factors for different configurations such as low-end & high-end servers as long as they support return on investment. This in fact motivates the customers to upgrade their resources.
 11. Once such sample assumptions are validated by the development team and customers, then non-functional testing is conducted.
 
-<div style="page-break-after: always;"></div>
 
-==*Scalability Testing*==
+*Scalability Testing*  
 - To find out the maximum capability of the product parameters. 
 - High resources required.
 - A high-end configuration is selected and the scalability parameter is increased step by step to reach the maximum capability.
@@ -1028,9 +967,8 @@ Basic assumptions that can be made about resources and configuration:
 - The scalability reaches a saturation point beyond which it cannot be improved. This is called the maximum capability of a scalability parameter. Even though resources may be available, product limitation may still not allow scalability.
 - This is called a product bottleneck. Identification of such bottlenecks and removing them in the testing phase as early as possible is a basic requirement for resumption of scalability testing.
 
-<div style="page-break-after: always;"></div>
 
-==*Reliability Testing*==
+*Reliability Testing*  
 Done to evaluate the product's ability to perform its required functions under stated conditions for a specified period of time or for a large number of iterations.
 
 Product reliability is achieved by focusing on
@@ -1048,9 +986,8 @@ A *reliability tested product* will have the these characteristics:
 4. Consistent performance and response time of the product for repeated transactions for a specified time duration.
 5. No side-effects after the repeated transactions are executed.
 
-<div style="page-break-after: always;"></div>
 
-==*Stress Testing*==
+*Stress Testing*  
 - Stress testing is done to evaluate a system beyond the limits of specified requirements or resources, to ensure that system does not break.
 - Done to find out if the product's behavior degrades under extreme conditions and when it is denied the necessary resources, like insufficient memory, inadequate hardware etc.
 - The product is over-loaded deliberately to simulate the resource crunch and to find out its behavior.
@@ -1071,9 +1008,8 @@ Guidelines to select the tests for stress testing:
 3. *Magnitude* - This refers to the amount of load to be applied to the product to stress the system.
 4. *Random variation* - Stress testing depends on increasing/decreasing variable load.
 
-<div style="page-break-after: always;"></div>
 
-==*Interoperability Testing*==
+*Interoperability Testing*  
 Interoperability testing is done to ensure the two or more products can exchange information, use
 information, and work properly together.
 
@@ -1084,9 +1020,8 @@ Guidelines that help in improving interoperability.
 4. *Communication and messages* - When a message is passed on from a system A to system B, if any and the message is lost or gets garbled the product should be tested to check how it responds to such user requesting him to wait for sometime until it recovers the connection.
 5. *Meeting quality factors* - When two or more products are put together, there is an additional requirement of information exchange between them.
 
-<div style="page-break-after: always;"></div>
 
-###### Regression Testing
+## Regression Testing
 **What is Regression Testing?**
 - Regression testing is done to ensure that changes work as designed and do not have any unintended side-effects.
 - Regression tests acknowledge that new fixes can cause new 'side effects' and can also cause some older defects to appear.
@@ -1101,39 +1036,36 @@ Guidelines that help in improving interoperability.
 - Based on the impact analysis, some more test cases are selected to take care of the impacted areas.
 - Since this testing technique focuses on reuse of existing test cases that have already been executed, the technique is called selective re-testing.
 
-<div style="page-break-after: always;"></div>
 
-**Types of Regression Testing**
-==*What is a build?*==
+**Types of Regression Testing**  
+*What is a build?*  
 A build is an aggregation of all the defect fixes and features that are present in the product.
 
 Two types of regression testing:
 1. Regular regression testing.
 2. Final regression testing.
 
-==*Regular Regression Testing*==
+*Regular Regression Testing*  
 - *Regular regression testing* is done between test cycles to ensure that defect fixes done and functionality that was working with the earlier test cycles continues to work normally.
 - Regular regression testing can use more than one product build for the test cases to be executed.
 
-==*Final Regression Testing*==
+*Final Regression Testing*  
 - A “final regression testing” is done to validate the final build before release.
 - The Configuration Management(CM) engineer delivers the final build with the media and other contents exactly as it would go to the customer.
 - The test cycle is conducted for a specific period of time, which is called *cook time*.
 - Cook time is necessary as some defects show up only after running the product build for some time.
 - The final regression test cycle is more critical than any other type or phase of testing, as the build which is being tested is the one which will go directly to the customer.
 
-<div style="page-break-after: always;"></div>
 
-**When to do Regression Testing?**
+**When to do Regression Testing?**  
 Perform regression testing when:
 1. A reasonable amount of initial testing is already carried out.
 2. A good number of defects have been fixed.
 3. Defect fixes that can produce side-effects are taken care of.
 4. Regression testing may also be performed periodically, as a pro-active measure.
 
-<div style="page-break-after: always;"></div>
 
-**How to do Regression Testing?**
+**How to do Regression Testing?**  
 A well-defined methodology for regression testing is very important as this among is the final type of testing that is normally performed just before release. If regression testing is not done right, it will enable the defects to seep through and may result in customers facing some serious issues not found by test teams.
 1. Performing an initial “Smoke” or “Sanity” test
 2. Understanding the criteria for selecting the test cases
@@ -1142,18 +1074,16 @@ A well-defined methodology for regression testing is very important as this amon
 5. Resetting the test cases for test execution
 6. Concluding the results of a regression cycle
 
-<div style="page-break-after: always;"></div>
 
-==*Initial 'Smoke' or 'Sanity' Test*==
+*Initial 'Smoke' or 'Sanity' Test*  
 Smoke testing consists of:
 1. Identifying the basic functionality that a product must satisfy.
 2. Designing test cases to ensure that these basic functionality work and packaging them into a smoke test suite.
 3. Ensuring that every time a product is built, this suite is run successfully before anything else is run.
 4. If this suite fails, escalating to the developers to identify the changes and perhaps change or roll back the changes to a state where the smoke test suite succeeds.
 
-<div style="page-break-after: always;"></div>
 
-==*Criteria for Selecting the Test Cases*==
+*Criteria for Selecting the Test Cases*  
 Criteria to select test cases for regression testing are as follows:
 1. Include test cases that have produced the maximum defects in the past.
 2. Include test cases for a functionality in which a change has been made.
@@ -1163,9 +1093,8 @@ Criteria to select test cases for regression testing are as follows:
 6. Include test cases to test the positive test conditions.
 7. Includes the area which is highly visible to the users.
 
-<div style="page-break-after: always;"></div>
 
-==*Classifying Test Cases*==
+*Classifying Test Cases*  
 **Priority-0** 
 - These test cases can be called sanity test cases which check basic functionality and are run for accepting the build for further testing.
 - They are also run when a product goes through a major change.
@@ -1178,9 +1107,8 @@ Criteria to select test cases for regression testing are as follows:
 - These test cases deliver moderate project value.
 - They are executed as part of the testing cycle and selected for regression testing on a need basis.
 
-<div style="page-break-after: always;"></div>
 
-==*Methodology for Selecting Test Cases*==
+*Methodology for Selecting Test Cases*  
 This methodology takes into account the criticality and impact of defect fixes after test cases are classified into several priorities:
 
 **Case 1**
@@ -1195,9 +1123,8 @@ This methodology takes into account the criticality and impact of defect fixes a
 **Case 3**
 - If the criticality and impact of the defect fixes are high, then we need to execute all Priority-0, Priority-1 and a carefully selected subset of Priority-2 test cases.
 
-<div style="page-break-after: always;"></div>
 
-==*Some Other Methodologies*==
+*Some Other Methodologies*  
 **Regress all**
 - All priority 0, 1, and 2 test cases are rerun.
 - This means all the test cases in the regression test bed/suite are executed.
@@ -1215,9 +1142,8 @@ This methodology takes into account the criticality and impact of defect fixes a
 **Context based dynamic regression**
 - A few Priority-0 test cases are selected, and based on the context created by the analysis of those test cases after the execution and outcome, additional related cases are selected for continuing the regression testing.
 
-<div style="page-break-after: always;"></div>
 
-==*Resetting the Test Cases for Regression Testing*==
+*Resetting the Test Cases for Regression Testing*  
 Resetting of test cases is not done often, but if done, these points should be kept in mind:
 1. When there is a major change in the product.
 2. When there is a change in the build procedure which affects the product.
@@ -1229,25 +1155,23 @@ Resetting of test cases is not done often, but if done, these points should be k
 8. Test cases that consistently produce a positive result can be removed.
 9. Test cases relating to a few negative test conditions, which are not producing any defects, can be removed.
 
-<div style="page-break-after: always;"></div>
 
-==*Concluding the Results of Regression Testing*==
-**Result 1**
+*Concluding the Results of Regression Testing*  
+**Result 1**  
 If the result of a particular test case was a pass using the previous builds and a fail in the current build, then regression has failed. A new build is required and the testing must start from scratch after resetting the test cases.
 
-**Result 2**
+**Result 2**  
 If the result of a particular test case was a fail using the previous builds and a pass in the current build, then it is safe to assume the defect fixes worked.
 
-**Result 3**
+**Result 3**  
 If the result of a particular test case was a fail using the previous builds and a fail in the current build and if there are no defect fixes for this particular test case, it may mean that the result of this test case should not be considered for the pass percentage. This may also mean that such test cases should not be selected for regression.
 
-**Result 4**
+**Result 4**  
 If the result of a particular test case is a fail using the previous builds but works with a documented workaround and if you are satisfied with the workaround, then it should considered as a pass for both the system test cycle and regression test cycle.
 
-**Result 5**
+**Result 5**  
 If you are not satisfied with the workaround, then it should be considered as a fail for a system test cycle but may be considered as a pass for regression test cycle.
 
-<div style="page-break-after: always;"></div>
 
 **Best Practices in Regression Testing**
 1. Regression can be used for all types of releases.
@@ -1256,9 +1180,8 @@ If you are not satisfied with the workaround, then it should be considered as a 
 4. Ask your best test engineer to select the test cases.
 5. Detect defects, and protect your product from defects and defect fixes.
 
-<div style="page-break-after: always;"></div>
 
-###### Performance Testing
+## Performance Testing
 - The testing performed to evaluate the response time, throughput, and utilization of the system, to execute its required functions in comparison with different versions of the same product or a different competitive product is called performance testing.
 - Performance testing is complex and expensive due to large resource requirements and the time it takes.
 - A good number of defects that get uncovered during performance testing may require design and architecture change.
@@ -1268,7 +1191,6 @@ If you are not satisfied with the workaround, then it should be considered as a 
 - Not all operations/business transactions can be included in performance testing. 
 - High priority test cases are implemented before others.
 
-<div style="page-break-after: always;"></div>
 
 **Factors Governing Performance Testing**
 1. Throughput - The capability of the system or the product in handling multiple transactions.
@@ -1279,7 +1201,6 @@ If you are not satisfied with the workaround, then it should be considered as a 
 6. Benchmarking - Competitive products are compared against each other to analyse the strengths and weaknesses.
 7. Capacity Planning - Exercise to find out what resources and configurations are needed.
 
-<div style="page-break-after: always;"></div>
 
 *Performance Testing* is done to ensure that a product:
 - Processes the required number of transactions in any given interval (throughput).
@@ -1288,9 +1209,8 @@ If you are not satisfied with the workaround, then it should be considered as a 
 - Delivers worthwhile return on investment for the resources - hardware and software and deciding what kind of resources are needed for the product for different load conditions (capacity planning).
 - Is comparable to and better than that of the competitors for different parameters (competitive analysis and benchmarking).
 
-<div style="page-break-after: always;"></div>
 
-**Methodology For Performance Testing**
+**Methodology For Performance Testing**  
 Performance testing involves the steps:
 1. Collecting requirements
 2. Writing test cases
@@ -1301,12 +1221,10 @@ Performance testing involves the steps:
 7. Performance benchmarking
 8. Recommending right configuration for the customers(Capacity Planning)
 
-<div style="page-break-after: always;"></div>
-
 **Collecting Requirements**
 - Two types of requirements - generic & specific.
-- ==*Generic requirements*== are those that are common across all products in the domain.
-- ==*Specific requirements*== are those that depend on implementation for a particular product and differ from one product to another in a given domain
+- *Generic requirements* are those that are common across all products in the domain.
+- *Specific requirements* are those that depend on implementation for a particular product and differ from one product to another in a given domain
 
 Some resources for deriving performance requirements:
 1. Performance compared to the previous release of the same product.
@@ -1314,9 +1232,8 @@ Some resources for deriving performance requirements:
 3. Performance compared to absolute numbers derived from actual need.
 4. Performance numbers derived from architecture and design.
 
-<div style="page-break-after: always;"></div>
 
-**Writing Test Cases**
+**Writing Test Cases**  
 A test case for performance testing should have the following details:
 1. List of operations or business transactions to be tested.
 2. Steps for executing those operations/transactions.
@@ -1326,9 +1243,8 @@ A test case for performance testing should have the following details:
 6. The expected results (that is, expected response time, throughput, latency).
 7. The product versions/competitive products to be compared with and related information such as their corresponding fields
 
-<div style="page-break-after: always;"></div>
 
-**Automating Performance Test Cases**
+**Automating Performance Test Cases**  
 Automation helps in performance testing because of these reasons:
 1. Performance testing is repetitive.
 2. Performance test cases cannot be effective without automation and mostly it is almost impossible to do performance testing without automation.
@@ -1338,9 +1254,8 @@ Automation helps in performance testing because of these reasons:
 
 Thus, end-to-end automation is required for performance testing.
 
-<div style="page-break-after: always;"></div>
 
-**Executing Performance Test Cases**
+**Executing Performance Test Cases**  
 The most effort-consuming aspect in execution of performance test cases is usually data collection. 
 
 Data for the following points needs to be collected for test case execution:
@@ -1352,9 +1267,8 @@ Data for the following points needs to be collected for test case execution:
 6. What performance a product delivers for different configurations of hardware and network setup, is another aspect that needs to be included during execution.
 7. This requirement mandates the need for repeating the tests for different configurations and is referred to as *configuration performance tests*.
 
-<div style="page-break-after: always;"></div>
 
-**Analyzing the Performance Test Results**
+**Analyzing the Performance Test Results**  
 Before analyzing the test results, some calculations of data and organization of the data are required, which are:
 1. Calculating the mean of the performance test result data.
 2. Calculating the standard deviation.
@@ -1375,9 +1289,8 @@ The analysis of performance data is carried out to conclude the following:
 8. What performance requirements are met and how the performance looks when compared to the previous version.
 9. Sometime high-end configuration may not be available for performance testing. Use the current data and charts to extrapolate the expected results.
 
-<div style="page-break-after: always;"></div>
 
-**Performance Tuning**
+**Performance Tuning**  
 Analyzing performance data helps in narrowing down the list of parameters that really impact the
 performance results and improving product performance.
 
@@ -1387,18 +1300,16 @@ Two steps to get best results from performance tuning:
 1. Tuning the product parameters.
 2. Tuning the operating system and parameters.
 
-<div style="page-break-after: always;"></div>
 
-==*Tuning Product Parameters*==
+*Tuning Product Parameters*  
 Important points to consider while tuning the product parameters:
 1. Repeat the performance tests for different values of each parameter that impact performance, by keeping other parameters unchanged. This reveals the effect a parameter has on the performance of the product.
 2. Sometimes when a particular parameter value is changed, it needs changes in other parameters, as two parameters can be dependent and share things in common. Repeat the performance tests for a group of parameters and their different values.
 3. Repeat the performance tests for default values of all parameters, which are called *factory settings* tests.
 4. Repeat the performance tests for low and high values of each parameter and combinations.
 
-<div style="page-break-after: always;"></div>
 
-==*Tuning Operating System Parameters*==
+*Tuning Operating System Parameters*  
 Tuning the OS parameters is another step towards getting better performance. There are various sets of parameters provided by the operating system under different categories, which are:
 1. File system related parameters, like number of open files permitted.
 2. Disk management parameters, like simultaneous disk reads/writes.
@@ -1406,24 +1317,21 @@ Tuning the OS parameters is another step towards getting better performance. The
 4. Processor management parameters, like enabling/disabling processors in multiprocessor environment.
 5. Network parameters, like setting TCP/IP time out.
 
-<div style="page-break-after: always;"></div>
 
-**Performance Benchmarking**
+**Performance Benchmarking**  
 Steps involved in performance benchmarking are the following:
 1. Identifying the transactions/scenarios and the test configuration.
 2. Comparing the performance of different products.
 3. Tuning the parameters of the products being compared fairly to deliver the best performance.
 4. Publishing the results of performance benchmarking.
 
-<div style="page-break-after: always;"></div>
 
-**Capacity Planning**
+**Capacity Planning**  
 Capacity planning corresponding to short, medium and long-term requirements:
-1. ==Minimum required configuration== - Denotes that with anything less than this configuration, the product may not even work. Thus, configurations below the minimum required configuration are usually not supported
-2. ==Typical configuration== - Denotes that under that configuration the product will work fine for meeting the performance requirements of the required load pattern and can also handle a slight increase in the load pattern.
-3. ==Special configuration== - Denotes that capacity planning was done considering all future requirements.
+1. Minimum required configuration - Denotes that with anything less than this configuration, the product may not even work. Thus, configurations below the minimum required configuration are usually not supported
+2. Typical configuration - Denotes that under that configuration the product will work fine for meeting the performance requirements of the required load pattern and can also handle a slight increase in the load pattern.
+3. Special configuration - Denotes that capacity planning was done considering all future requirements.
 
-<div style="page-break-after: always;"></div>
 
 **Role of Load Balancing & High Availability in Capacity Planning**
 - Load balancing ensures that the multiple machines available are used equally to service the transactions.
@@ -1431,7 +1339,6 @@ Capacity planning corresponding to short, medium and long-term requirements:
 - Machine clusters are used to ensure availability.
 - In a cluster there are multiple machines with shared data so that in case one machine goes down, the transactions can be handled by another machine in the cluster.
 
-<div style="page-break-after: always;"></div>
 
 **Process For Performance Testing**
 ![](https://i.imgur.com/GAGFLIh.png)
@@ -1442,9 +1349,8 @@ Capacity planning corresponding to short, medium and long-term requirements:
 4. Set up product traces, audits, internal and external traces, logs etc.
 5. Decide the entry and exit criteria.
 
-<div style="page-break-after: always;"></div>
 
-###### Ad Hoc Testing
+## Ad Hoc Testing
 - Testing done without using any formal testing technique and without any formal planning is called ad hoc testing.
 - It is done to explore the undiscovered areas in the product by using intuition, previous experience in working with the product, expert knowledge of the platform or technology, and experience of testing a similar product.
 - Ad hoc testing does not make use of any of the test case design techniques like equivalence partitioning, boundary value analysis, and so on.
@@ -1452,7 +1358,7 @@ Capacity planning corresponding to short, medium and long-term requirements:
 - The test cases are not documented.
 - Ad hoc testing can be done in all phases of testing.
 
-==*Some Drawbacks of ad hoc testing & Possible Resolutions*==
+*Some Drawbacks of ad hoc testing & Possible Resolutions*  
 
 | Drawback | Possible Resolution |
 | ---- | ---- |
@@ -1462,14 +1368,12 @@ Capacity planning corresponding to short, medium and long-term requirements:
 | Difficult to track the exact steps. | Write detailed defect reports in a step-by-step<br>manner. Document ad hoc tests after test execution. |
 | Lack of data for metrics analysis. | Plan the metrics collection for both planned tests and ad hoc tests. |
 
-<div style="page-break-after: always;"></div>
 
 **Buddy Testing**
 - Uses the “buddy system” where two team members are identified as buddies.
 - The buddies mutually help each other, with a common goal of identifying defects early and correcting them.
 - A developer and a tester usually become buddies.
 
-<div style="page-break-after: always;"></div>
 
 **Pair Testing**
 - Pair testing is testing done by two testers working simultaneously on the same machine to find defects in the product.
@@ -1478,7 +1382,6 @@ Capacity planning corresponding to short, medium and long-term requirements:
 - When one person is executing the tests, the other person takes notes.
 - They can swap roles of “tester” and “scribe” during a session. They can mutually decide on the modus operandi.
 
-<div style="page-break-after: always;"></div>
 
 **Exploratory Testing**
 - Exploratory testing is a technique used to find defects by exploring the product, covering more depth and breadth.
@@ -1486,31 +1389,30 @@ Capacity planning corresponding to short, medium and long-term requirements:
 
 There are several ways to perform exploratory testing:
 
-==*Guesses*==
+*Guesses*
 - Guesses are used to find the part of the program that is likely to have more errors.
 - Previous experience on working with a similar product or software or technology helps in guessing.
 - This is because the tester would have already faced situations to test a similar product or software.
 - Those tests from guesses are used on the product to check for similar defects.
 
-==*Architecture Diagrams & Use Cases*==
+*Architecture Diagrams & Use Cases*
 - Architecture diagrams depict the interactions and relationships between different components and modules.
 - Use cases give an insight of the product's usage from the end user's perspective.
 - A use case explains a set of business events, the input required, people involved in those events and the expected output.
 
-==*Study of Past Defects*==
+*Study of Past Defects*
 - Studying the defects reported in the previous releases helps in understanding of the error prone functionality/modules in a product development environment.
 
-==*Error Handling*==
+*Error Handling*
 - Error handling is a portion of the code which prints appropriate messages or provides appropriate actions in case of failures.
 
-==*Discussions*==
+*Discussions*
 - Exploration may be planned based on the understanding of the system during project discussions or meetings.
 - Information can be picked up during these meetings regarding implementation of different requirements for the product.
 
-==*Questionnaires & Checklists*==
+*Questionnaires & Checklists*
 - Questions like “what, when, how, who and why” can provide leads to explore areas in the product.
 
-<div style="page-break-after: always;"></div>
 
 **Iterative Testing**
 - Iterative testing aims at testing the product for all requirements, irrespective of the phase they belong to in the spiral model.
@@ -1521,7 +1423,6 @@ There are several ways to perform exploratory testing:
 - Regression tests may be repeated at least every alternate iteration so that the current functionality is preserved.
 - Automation helps in iterative testing.
 
-<div style="page-break-after: always;"></div>
 
 **Agile & Extreme Testing**
 - Agile and extreme (XP) models take the processes to the extreme to ensure that customer requirements are met in a timely manner.
@@ -1529,9 +1430,8 @@ There are several ways to perform exploratory testing:
 - Software is delivered as small releases, with features being introduced in increments.
 - Extreme programming and testing makes frequent releases and in a controlled way by involving customers.
 
-<div style="page-break-after: always;"></div>
 
-==*Activities in XP Work Flow*==
+*Activities in XP Work Flow*
 1. Develop user stories.
 2. Prepare acceptance tests.
 3. Code.
@@ -1549,7 +1449,6 @@ The rules that are followed in extreme programming and testing are as follows:
 6. Make Frequent Small Releases.
 7. Involve Customers All The Time.
 
-<div style="page-break-after: always;"></div>
 
 **Defect Seeding**
 - Defect seeding is a method of intentionally introducing defects into a product to check the rate of its detection and residual defects.
@@ -1559,14 +1458,13 @@ The rules that are followed in extreme programming and testing are as follows:
 - Defects that are seeded are similar to real defects. Therefore, they are not very obvious and easy to detect.
 - Total latent defects = (Defects seeded / Defects seeded found) * Original defects found. Latent defects are the number of defects which are yet to be found.
 
-==*Precautions while defect seeding:*==
+*Precautions while defect seeding:*
 1. Care should be taken during the defect seeding process to ensure that all the seeded defects are removed before the release of the product.
 2. The code should be written in such a way that the errors introduced can be identified easily. Minimum number of lines should be added to seed defects so that the effort involved in removal becomes reduced.
 3. It is necessary to estimate the efforts required to clean up the seeded defects along with the effort for identification. Effort may also be needed to fix the real defects found due to the injection of some defects.
 
-<div style="page-break-after: always;"></div>
 
-==*Real life scenarios and suitable ad hoc testing techniques*==
+*Real life scenarios and suitable ad hoc testing techniques*  
 
 | Scenario | Most effective ad hoc technique |
 | ---- | ---- |
@@ -1577,10 +1475,9 @@ The rules that are followed in extreme programming and testing are as follows:
 | Deal with changing requirements. | Iterative Testing |
 | Make frequent releases with customer involvement in product development. | Agile/Extreme Testing |
 
-<div style="page-break-after: always;"></div>
 
-###### A Checklist For Test Planning, Management, Execution and Reporting
-==*Scope Related*==
+## A Checklist For Test Planning, Management, Execution and Reporting
+*Scope Related*
 - Have you identified the features to be tested?
 - Have you identified the features not to be tested?
 - Have you justified the reasons for the choice of features not to be tested and ascertained the impact from product management/senior management?
@@ -1588,9 +1485,7 @@ The rules that are followed in extreme programming and testing are as follows:
 - Have you included in the scope of testing areas which failures can be catastrophed?
 - Have you included for testing those area that are defect prove or complex to test ?
 
-<div style="page-break-after: always;"></div>
-
-==*Environment Related*==
+*Environment Related*
 - Do you have a software configuration management tool in place?
 - Do you have a defect repository in place?
 - Do you have a test case data base in place?
@@ -1598,9 +1493,7 @@ The rules that are followed in extreme programming and testing are as follows:
 - Have you identified the necessary hardware and software to design and run the tests?
 - Have you identified the costs and other resource requirements of any test automation tools that may be needed?
 
-<div style="page-break-after: always;"></div>
-
-==*Test Case Related*==
+*Test Case Related*
 - Have you published naming conventions and other internal standards for designing, writing, and executing test cases?
 - Are the test specifications documented adequately according to the above standards?
 - Are the test specifications reviewed and approved by appropriate people?
@@ -1610,17 +1503,14 @@ The rules that are followed in extreme programming and testing are as follows:
 - Are the test cases baselined into the SCM repository?
 - Is the traceability matrix updated once the test specifications/test cases are baselined?
 
-<div style="page-break-after: always;"></div>
-
-==*Effort Estimation Related*==
+*Effort Estimation Related*
 - Have you translated the scope to a size estimate (for example, number of test cases)
 - Have you arrived at an estimate of the effort required to design and construct the tests?
 - Have you arrived at an effort required for repeated execution of the tests?
 - Have the effort estimates been reviewed and approved by appropriate people?
 
-<div style="page-break-after: always;"></div>
 
-==*Schedule Related*==
+*Schedule Related*
 - Have you put together a schedule that utilizes all the resources available?
 - Have you accounted for any parallelism constraints?
 - Have you factored in the availability of releases from the development team?
@@ -1628,9 +1518,7 @@ The rules that are followed in extreme programming and testing are as follows:
 - Have you prioritized the tests in the event of any schedule crunch?
 - Has the schedule been reviewed and approved by appropriate people?
 
-<div style="page-break-after: always;"></div>
-
-==*Risks Related*==
+*Risks Related*
 - Have you identified the possible risks in the testing project?
 - Have you quantified the likelihood and impact of these risks?
 - Have you identified possible symptoms to catch the risks before they happen?
@@ -1639,35 +1527,28 @@ The rules that are followed in extreme programming and testing are as follows:
 - What mechanisms have you tried to distribute the testing activities throughout the life cycle (for example, doing an early test design like in the V model)?
 - Have you prepared for the risk of idle time because of tests being suspended?
 
-<div style="page-break-after: always;"></div>
-
-==*Execution Related*==
+*Execution Related*
 - Are you executing the tests as per plan? If there is any deviation, have you updated the plan?
 - Did the test execution necessitate changing any test cases design? If so, is the TCDB kept current?
 - Have you logged any defects that come up during testing in the defect repository?
 - Have you updated the defect repository for any defects that are fixed in the current test cycle?
 - Have you kept the traceability matrix current with the changes?
 
-<div style="page-break-after: always;"></div>
-
-==*Completion Related*==
+*Completion Related*
 - Have you prepared a test summary report?
 - Have you clearly documented the outstanding defects, along with their severity and impact?
 - Have you put forth your recommendations for product release?
 
-==*People Related*==
+*People Related*
 - Have you identified the number and skill levels of people required?
 - Have you identified the gaps and prepared for training and skill upgradation?
 
-<div style="page-break-after: always;"></div>
-
-==*Criteria Definition Related*==
+*Criteria Definition Related*
 - Have you defined the entry and exit criteria for the various test phases?
 - Have you defined the suspension and resumption criteria for the various tests?
 
-<div style="page-break-after: always;"></div>
 
-###### A Template For Test Plan
+## A Template For Test Plan
 1. Introduction
 	- Scope - What features are to be tested and what features will not be tested; what combinations of environment are to be tested and what not.
 2. References
@@ -1691,7 +1572,7 @@ The rules that are followed in extreme programming and testing are as follows:
 9. Resource Requirements
 	- Hardware Resources
 	- Software Resources
-	- People Resources (Number of people, skills, duration, etc.)
+	- People Resources (Number of people, skills, duration, etc)
 	- Other Resources
 10. Training Requirements
 	- Details of Training Required
@@ -1701,10 +1582,9 @@ The rules that are followed in extreme programming and testing are as follows:
 12. Metrics Plan
 13. Product Release Criteria
 
-<div style="page-break-after: always;"></div>
 
-###### Software Test Automation
-**What is Test Automation?**
+## Software Test Automation
+**What is Test Automation?**  
 Developing software to test the software is called test automation. Addresses several problems like:
 1. Automation saves time as software can execute test cases faster than human do.
 2. Test automation can free the test engineers from mundane tasks and make them focus on more creative tasks.
@@ -1715,43 +1595,43 @@ Developing software to test the software is called test automation. Addresses se
 7. Certain types of testing cannot be executed without automation.
 8. Automation means end-to-end, not test execution alone.
 
-**Terms used in Automation**
-==*Test data generators*==
+**Terms used in Automation**  
+*Test data generators*  
 Automation should have scripts that produce test data to maximize coverage of permutations and combinations of inputs and expected output for result comparison. They are called *test data generators*.
 
-==*Test Suite*==
+*Test Suite*  
 When a set of test cases is combined and associated with a set of scenarios, they are called *test suite*. A Test suite is nothing but a set of test cases that are automated and scenarios that are associated with the test cases.
 
-<div style="page-break-after: always;"></div>
-
-**Skills Needed For Automation**
+**Skills Needed For Automation**  
 *First generation - Record & Playback*
-==Skills for test case automation:==
+
+Skills for test case automation:
 - Scripting languages.
 - Record-playback tools usage.
 
 *Second generation - Data Driven*
-==Skills for test case automation:== 
+
+Skills for test case automation:
 - Scripting languages.
 - Programming languages.
 - Knowledge of data generation techniques.
 - Usage of product under test.
 
 *Third generation - Action Driven*
-==Skills for test case automation:==
+
+Skills for test case automation:
 - Scripting languages.
 - Programming languages.
 - Design and architecture of the product under test.
 - Usage of the framework.
 
-==Skills for framework:==
+Skills for framework:
 - Programming languages.
 - Design & architecture skills for framework creation.
 - Generic test requirements for multiple products.
 
-<div style="page-break-after: always;"></div>
 
-**Scope of Automation : What to Automate?**
+**Scope of Automation : What to Automate?**  
 1. Certain types of testing are more suited for automation, which are:
 	- Stress, reliability, scalability & performance testing.
 	- Regression tests.
@@ -1762,9 +1642,8 @@ When a set of test cases is combined and associated with a set of scenarios, the
 	- ROI is to be considered.
 	- Test cases that are easy to automate should be automated first.
 
-<div style="page-break-after: always;"></div>
 
-**Design & Architecture For Automation**
+**Design & Architecture For Automation**  
 Components in test automation:
 1. External modules.
 2. Scenario & Configuration file modules.
@@ -1772,9 +1651,8 @@ Components in test automation:
 4. Tools & Results modules.
 5. Report generator & Report/Metrics modules.
 
-<div style="page-break-after: always;"></div>
 
-**Generic Requirements For Test Tool/Framework**
+**Generic Requirements For Test Tool/Framework**  
 1. No hard coding in the test suite.
 2. Test case/suite expandability.
 3. Reuse of code for different types of testing, test cases.
@@ -1795,16 +1673,14 @@ Components in test automation:
 18. Independent of languages.
 19. Portability to different platforms.
 
-<div style="page-break-after: always;"></div>
 
-**Process Model For Automation**
+**Process Model For Automation**  
 The W Model for phases involved in automation.
 
 ![](https://i.imgur.com/6kdTgRv.png)
 
-<div style="page-break-after: always;"></div>
 
-**Selecting a Test Tool**
+**Selecting a Test Tool**  
 Selecting a test tool is an important aspect of test automation for many reasons:
 1. Free tools are not well supported and get phased out soon.
 2. Developing in-house tools takes time.
@@ -1814,15 +1690,14 @@ Selecting a test tool is an important aspect of test automation for many reasons
 6. Not all test tools run on all platforms.
 7. Testing tools have very high entry, maintenance, and exit costs and hence careful selection is required.
 
-<div style="page-break-after: always;"></div>
 
-==*Criteria For Selecting Test Tools*==
+*Criteria For Selecting Test Tools*
 1. Meeting Requirements.
 2. Technology Expectations.
 3. Training skills.
 4. Management aspects.
 
-==*Issues in Selecting a Testing Tool*==
+*Issues in Selecting a Testing Tool*
 1. Meeting Requirements
 	- Checking wether the tools meet requirements, involves effort and money.
 	- Test tools are not fully compatible with products.
@@ -1843,9 +1718,8 @@ Selecting a test tool is an important aspect of test automation for many reasons
 	- Migration to other test tools difficult.
 	- Deploying tool requires huge planning and effort.
 
-<div style="page-break-after: always;"></div>
 
-==*Steps for Tool Selection & Deployment*==
+*Steps for Tool Selection & Deployment*
 1. Identify your test suite requirements among the generic requirements discussed. Add other requirements, if any.
 2. Collect the experiences of other organizations which used similar test tools.
 3. Keep a checklist of questions to be asked to the vendors on cost/effort/support/anything else.
@@ -1854,7 +1728,6 @@ Selecting a test tool is an important aspect of test automation for many reasons
 6. Evaluate and shortlist one tool or set of tools and train all test developers on the tool.
 7. Deploy the tool across test teams after training all potential users of the tool.
 
-<div style="page-break-after: always;"></div>
 
 **Conclusion**
 - A good automation test suite can help in 24x7 test execution, saving effort and time.
@@ -1863,9 +1736,8 @@ Selecting a test tool is an important aspect of test automation for many reasons
 - Selecting test tools without proper analysis will result in expensive test tools gathering dust on the shelf. This is termed as shelf ware.
 - Automation makes life easier for testers for better reproduction of test results, coverage and, of course, reduction in effort as a side product.
 
-<div style="page-break-after: always;"></div>
 
-**Further Exploration**
+**Further Exploration**  
 More types of software testing to explore:
 1. Accessibility & Usability Testing
 2. Internationalization Testing
