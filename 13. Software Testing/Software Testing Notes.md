@@ -44,7 +44,7 @@
 26. Defect prevention is process focussed and defect detection is product focused. Defect detection acts as an extra check to augment the effectiveness of defect prevention.
 27. Quality is institutionalized with consistently high focus on both defect prevention and detection. Although, an organisation may have to allocate sufficient resources for sustaining a high level of both Quality control and quality assurance activities.
 28. The relative emphasis placed on the defect detection and prevention will vary on the type of product, closeness of release date and resources available. Making a conscious choice of balance will enable an organisation to produce better quality products. It is important not to over-emphasize one of these at the expense of the other.
-29. ==Automation in Software Testing : Some Points to Consider==
+29. *Automation in Software Testing : Some Points to Consider*
 - Automated testing requires careful planning, evaluation and training. Automation may not produce immediate results.
 - Expecting immediate results from automation can bring dissapointment and lead people to blame automation, instead of objectively looking at their level of preparedness for automation in terms of planning, evaluation and training.
 - A failure in doing so leads to organisations reverting back to manual testing. It is like a double edged sword.
