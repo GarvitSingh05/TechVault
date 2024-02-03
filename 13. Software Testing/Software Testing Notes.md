@@ -143,7 +143,7 @@ Two methods for ensuring that the chances of the product meeting its requirement
 - QA continues throughout the life of the product, it is everybody's responsibility, hence it is a staff function.
 - In contrast, the responsibility for Quality Control is usually localized to a quality control team.
 
-###### Difference In Testing Verification & Testing Validation
+## Difference In Testing Verification & Testing Validation
 | Testing Verification | Testing Validation |
 | ---- | ---- |
 | 1. Quality Assurance = Verification | 1. Quality Control = Validation = Testing |
