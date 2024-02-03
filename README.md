@@ -10,6 +10,7 @@
 09. [Computer Organisation & Architecture Handwritten](https://github.com/GarvitSingh05/computer-science-notes/blob/main/09.%20Computer%20Organisation%20%26%20Architecture/Computer%20Organisation%20%26%20Architecture.pdf)  
 10. [Graph Theory & Trees Handwritten](https://github.com/GarvitSingh05/computer-science-notes/blob/main/10.%20Graph%20Theory%20%26%20Trees/Graphy%20Theory%2C%20Trees%2C%20Propositional%20Logic.pdf)  
 11. [Non Fungible Tokens(NFTs)](https://github.com/GarvitSingh05/computer-science-notes/blob/main/11.%20NFTs/Complete%20Guide%20on%20NFTs.md)  
+12. [System Design](https://github.com/GarvitSingh05/computer-science-notes/tree/main/12.%20System%20Design)  
 
 ## Coming Up in Future
 • Software Testing  
