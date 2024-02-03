@@ -12,20 +12,20 @@
 06. [Virtualization](https://github.com/GarvitSingh05/computer-science-notes/blob/main/06.%20Virtualisation/Virtualisation.md)  
 
 07. [Cloud Computing](https://github.com/GarvitSingh05/computer-science-notes/blob/main/07.%20Cloud%20Computing/Cloud%20Computing.md)  
-  - Cloud Architecture
-  - Cloud Cost Management
-  - Cloud Deployment Models
-  - Cloud DevOps & CI/CD
-  - Cloud Migration
-  - Cloud Monitoring & Management
-  - Cloud Networking
-  - Cloud Security
-  - Cloud Service Models
-  - Cloud Storage
-  - Containers & Orchestration
-  - Edge Computing In Cloud
-  - Machine Learning In Cloud
-  - Serverless Computing
+    - Cloud Architecture
+    - Cloud Cost Management
+    - Cloud Deployment Models
+    - Cloud DevOps & CI/CD
+    - Cloud Migration
+    - Cloud Monitoring & Management
+    - Cloud Networking
+    - Cloud Security
+    - Cloud Service Models
+    - Cloud Storage
+    - Containers & Orchestration
+    - Edge Computing In Cloud
+    - Machine Learning In Cloud
+    - Serverless Computing
 
 08. [Operating Systems](https://github.com/GarvitSingh05/computer-science-notes/blob/main/08.%20Operating%20Systems/Operating%20System%20Notes.md)  
   - OS & It's Functions
