@@ -32,6 +32,7 @@
       - Types Of Operating Systems
       - Process States & Lifecycle
       - System Calls
+      - User Mode vs Kernel Mode
       - CPU Process Scheduling Algorithms
       - Process Synchronization
       - Deadlocks
