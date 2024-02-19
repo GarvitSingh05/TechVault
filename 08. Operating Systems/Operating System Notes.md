@@ -575,7 +575,7 @@ Methods to handle deadlocks:
 ![](https://i.imgur.com/eIMZC1e.png)
 
 
-**Contiguous Memory Management**
+**Contiguous Memory Management**  
 *Fixed Size Partitioning | Internal Fragmentation*
 - No of partitions are fixed.
 - Size of each partition may or may not be same.
@@ -600,46 +600,46 @@ Disadvantages:
 4. Allocation & Deallocation is complex because the number of partitions and processes is not fixed.
 
 
-Allocation Methods In Contiguous Memory Management
-**First Fit**
+Allocation Methods In Contiguous Memory Management  
+**First Fit**  
 Allocate the first hole that is big enough.
 
-Advantage
+Advantage  
 Simple and Fast.
 
-Disadvantage
+Disadvantage  
 Can create big holes leading to fragmentation problems.
 
-**Next Fit**
+**Next Fit**  
 Same as first fit but start search always from the last allocated hole.
 
-Advantage
+Advantage  
 Search starts from previously left location
 
-Disadvantage
+Disadvantage  
 Can create big holes leading to fragmentation problems.
 
-**Best Fit**
+**Best Fit**  
 Allocate the smallest hole that is big enough.
 
-Advantage
+Advantage  
 Least internal fragmentation. Searches the entire least and then decides where to store the process.
 
-Disadvantage
+Disadvantage  
 Can create small and tiny holes, that cannot be used to store any processes because of their small size. Very slow as well.
 
-**Worst Fit**
+**Worst Fit**  
 Allocate the largest hole.
 
-Advantage
+Advantage  
 Leaves maximum left over space, where other processes can be stored easily.
 
-Disadvantage
+Disadvantage  
 Slow.
 
 
-**Non-Contiguous Memory Management**
-Paging
+**Non-Contiguous Memory Management**  
+Paging  
 - Process can be divided and stored in multiple spanning memory locations. 
 - Solves the problem of external fragmentation.
 - The division of a process is a costly process because holes in memory are created dynamically and their size keeps changing.
@@ -655,7 +655,7 @@ Paging
 - CPU works on logical address. Logical address has page number and page offset. Offset means size of page. This logical address is converted to physical address by the MMU and then it performs mapping.
 
 
-**Page Table Entries**
+**Page Table Entries**  
 The fields included in a page table are:
 1. Frame Number
 2. Valid(1)/Invalid(0) - Wether the page is present or absent in the specified frame number. Detects page fault.
@@ -665,10 +665,10 @@ The fields included in a page table are:
 6. Dirty/Modify - If data has been modified, but yet to be updated in the secondary memory, it is marked with 1, else 0.
 Frame Number is a mandatory field while the rest others are optional.
 
-**2-Level/Multilevel Paging**
+**2-Level/Multilevel Paging**  
 Page table sometimes has to be divided further in order to accomodate it with the frame size. This is where multilevel paging helps.
 
-**Inverted Paging**
+**Inverted Paging**  
 Instead of keeping a page table for all processes, a single global page table is created for all processes. The global page table contains frame number, page number and process ID.
 
 Inverted page table has high searching times because of which it did not gain much popularity. Inverted page table saves memory but compromises on time. Nowadays, memory is getting cheaper and cheaper, but time is limited. Saving time is more preferable as compared to memory.
@@ -680,7 +680,7 @@ When degree of multiprogramming in the RAM is too high, then it leads to increas
 ![](https://i.imgur.com/DZXF402.png)
 
 
-==Segmentation vs Paging==
+**Segmentation vs Paging**
 Paging divides processes in a way where half of the instructions can be in one page, and the rest in some other page. This leads to incompleteness in instructions. We divide the process into pages without caring about what is written in them.
 
 Segmentation works on user's point of view. It doesnt divide a program directly like paging does. It creates segments of the program. These segments can be anything like functions etc. Size of each segment is of various sizes.
@@ -732,7 +732,7 @@ Effective Memory Access Time (EMAT) = p(page fault service time) + (1-p)(main me
 5. Transfer Rate(Data Rate) - No. of heads/surfaces X Capacity of one Track X No. of rotations in one second
 
 
-**Disk Scheduling Algorithms**
+**Disk Scheduling Algorithms**  
 Goal : To minimize seek time.
 1. FCFS(First Come First Serve)
 2. SSTF(Shortest Seek Time First)
@@ -834,7 +834,7 @@ Disadvantages
 1. Pointer overhead(high number of pointers used).
 2. Multilevel Index(for very large files).
 
-**Unix Inode Structure**
+**Unix Inode Structure**  
 Unix Inode is a data structure that contains File attributes, direct blocks, single indirect blocks, double indirect blocks and triple indirect blocks. It is a hybrid approach that overcomes the shortcomings of the previous file allocation methods. 'I' is Index, 'Node' is the block in Inode.
 
 Q. A file system uses Unix Inode data structure which contains 8 direct block addresses, one indirect block, one double and triple indirect block. The size of each block is 128 Bytes and size of each block address is 8 Bytes. Find the maximum possible file size?
