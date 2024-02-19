@@ -1,7 +1,6 @@
-### Containers & Orchestration
-#### By Garvit Singh
-
-###### **Containers & Orchestration**
+---
+# **Containers & Orchestration**
+---
 **Containers**
 - Containers are lightweight, standalone, and executable packages that include everything needed to run a piece of software, including the code, runtime, system tools, libraries, and settings.
 - Containers provide consistency across development, testing, and production environments. 
@@ -30,12 +29,3 @@ Container orchestration tools help with the following tasks:
 - **Scaling**: Automatically adjusting the number of container instances based on resource usage or incoming requests.
 - **Rolling Updates**: Replacing old container versions with new ones without causing service downtime.
 - **Health Monitoring**: Continuously checking the health of containers and restarting or replacing unhealthy ones.
-
-<div style="page-break-after: always;"></div>
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="350"/>
-
-###### **By GARVIT SINGH**
-Information Technology Undergraduate
