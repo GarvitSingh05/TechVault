@@ -1,7 +1,9 @@
-### **Computer Networking Notes** 🔥
-##### **By Garvit Singh, IT Department**
+# **Computer Networking Notes** 🔥
+## **By Garvit Singh**
 
-**Protocols**
+---
+## **Protocols**
+---
 Protocols are nothing but how data is transferred in a computer network.
 
 - **TCP/IP**(Transmission Control Protocol/Internet Protocol) - Ensures data will reach its destination and will not be corrupted in the way. Connection-oriented protocol.
@@ -28,8 +30,9 @@ Protocols are nothing but how data is transferred in a computer network.
 
 - **TELENET**(Terminal Network) - Used for virtual terminal service given by ISO. This enables one local machine to connect with another. The computer being connected is the remote computer and which is connecting is the local computer. TELENET operation lets us display anything being performed on the remote computer in the local computer.
 
-**Basic Concepts**
-
+---
+## **Basic Concepts**
+---
  - Data is transferred in the form of Packets.
  
  - IPv4 Addresses : X - X - X - X where X ranges from 0 to 255. Denotes the location of your computer. To check IP Address of your system, use command :
@@ -94,8 +97,9 @@ Protocols are nothing but how data is transferred in a computer network.
 
 <div style="page-break-after: always;"></div>
 
-#### **Structure Of The Network**
-
+---
+## **Structure Of The Network**
+---
 **Open Systems Interconnection Model (OSI Model)**
 
 <img src="https://i.imgur.com/hwMEsHO.png" alt="OSI" width="420"/>
@@ -111,7 +115,9 @@ Protocols are nothing but how data is transferred in a computer network.
 
 Layers 1 to 4 are present inside your computer, while Layers 5 to 7 are present outside.
 
-##### **OSI Model : Each Layer In Detail**
+---
+## **OSI Model : Each Layer In Detail**
+---
 
 1. **Application Layer**
  - Softwares used by end-users, Front-end, Graphical User Interface(GUI). Users interact directly with this layer.
@@ -163,9 +169,9 @@ Layers 1 to 4 are present inside your computer, while Layers 5 to 7 are present 
 7. **Physical Layer**
 - Hardware section like the wires, router, CPU, Memory, RAM etc.
 
-<div style="page-break-after: always;"></div>
-
-#### **TCP/IP Model**
+---
+## **TCP/IP Model**
+---
 Internet Protocol Suite, developed by ARPA. TCP/IP Model has more practical real-life applications, unlike OSI Model, which is more theoretical.
 
 5 Layer Of TCP/IP Model : 
@@ -177,7 +183,7 @@ Internet Protocol Suite, developed by ARPA. TCP/IP Model has more practical real
 
 **TCP/IP Model : Each Layer In Detail**
 
-##### 1. Application Layer
+### 1. Application Layer
 Users interact directly with this layer. Ex - mobile apps, browsers etc.
 
 **Client - Server Architecture**
@@ -215,8 +221,6 @@ Users interact directly with this layer. Ex - mobile apps, browsers etc.
 - This way the server will know from that cookie which data is to be sent and who is contacting the server.
 - Third Party Cookies - Cookies that are set for URLs you don't visit. Ex - Websites displaying ads through third party cookies.
 
-<div style="page-break-after: always;"></div>
-
 **How Email Works?**
 
 <img src="https://i.imgur.com/ol9e3Ru.png" alt="Email" width="400"/>
@@ -244,9 +248,8 @@ Users interact directly with this layer. Ex - mobile apps, browsers etc.
 
 This was all about the Application Layer of TCP/IP Model. Now, moving onto the Transport Layer.
 
-<div style="page-break-after: always;"></div>
 
-##### 2. Transport Layer
+### 2. Transport Layer
 
 **Difference between Transport & Network Layer**
 - Transport Layer - Lies inside the device. Its job is to take data from the network to the application and vice versa.
@@ -274,7 +277,6 @@ This was all about the Application Layer of TCP/IP Model. Now, moving onto the T
 - If checksum values match, then all data has been received without corruption.
 - If checksum values don't match, then some data or files are lost.
 
-<div style="page-break-after: always;"></div>
 
 **Timers**
 
@@ -301,9 +303,7 @@ There are 4 types of Timers in TCP :
     - **Function:** It ensures that any delayed segments related to the closed connection are not misinterpreted as belonging to a new connection. The TIME_WAIT state allows the network to clear any lingering segments.
     - **Duration:** The time wait timer typically lasts twice the maximum segment lifetime (2MSL), where MSL is the maximum time a segment can exist in the network.
 
-<div style="page-break-after: always;"></div>
-
-###### **User Datagram Protocol(UDP)**
+### **User Datagram Protocol(UDP)**
 - Data may or may not be delivered.
 - Data may change on the way.
 - Data may not be in order.
@@ -328,9 +328,7 @@ There are 4 types of Timers in TCP :
 - Used in gaming, video conferencing apps.
 - DNS also uses UDP because it is faster.
 
-<div style="page-break-after: always;"></div>
-
-###### **Transmission Control Protocol(TCP)**
+### **Transmission Control Protocol(TCP)**
 - Transport layer protocol.
 - Application Layer sends a lot of data. TCP segments this data in a process called segmentation
 - Divide data in chunks, add headers, add checksums.
@@ -352,9 +350,7 @@ There are 4 types of Timers in TCP :
 
 This was all about the Transport Layer of TCP/IP Model. Now, moving onto the Network Layer.
 
-<div style="page-break-after: always;"></div>
-
-##### 3. Network Layer
+### 3. Network Layer
 - Routers are located in this layer.
 - Every router has a Network Address.
 - Router checks in its routing table that consists of every destination address.
@@ -370,9 +366,8 @@ This was all about the Transport Layer of TCP/IP Model. Now, moving onto the Net
 - Static Routing - Add the route and address manually. Time consuming.
 - Dynamic Routing - Evolves with the change in network. They use pathfinding algorithms.
 
-<div style="page-break-after: always;"></div>
 
-###### **Internet Protocol (IP)**
+### **Internet Protocol (IP)**
 - IPv4 -> 32 bits, 4 words
 - IPv6 -> 128 bits, alphanumeric
 - Classes of IPv4 Addresses
@@ -435,9 +430,7 @@ This was all about the Transport Layer of TCP/IP Model. Now, moving onto the Net
 	- Firewalls are present in network layer as well as transport layer.
 2. Network Address Translation(NAT)
 
-<div style="page-break-after: always;"></div>
-
-##### 4. Data Link Layer
+### 4. Data Link Layer
 - Packets received from Network Layer.
 - Data Link Layer is responsible for sending it over a physical link.
 - Converts data packets into Frames.
@@ -449,17 +442,11 @@ This was all about the Transport Layer of TCP/IP Model. Now, moving onto the Net
 - Also contains ARP Cache. ARP stands for Address Resolution Protocol.
 - These frames are finally sent over to the physical layer.
 
-<div style="page-break-after: always;"></div>
-
 ##### 5. Physical Layer
 
 <img src="https://i.imgur.com/YfCxZno.png" alt="PL" width="300"/>
 
 - Hardware section like the Wires, Optical Fibre Cables, Coaxial Cables, Routers, CPU, Memory, RAM etc.
   
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="300"/>
-
-######    By GARVIT SINGH
-Information Technology
+Thanks For Reading! 💙  
+*GARVIT SINGH*  
