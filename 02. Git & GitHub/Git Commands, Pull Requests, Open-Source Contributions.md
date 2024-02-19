@@ -1,7 +1,9 @@
-### Guide to Git Commands, Open-Source Contributions, Creating Pull Requests
-#### By Garvit Singh, IT Sophomore
+# Guide to Git Commands, Open-Source Contributions, Creating Pull Requests
+## By Garvit Singh, IT Sophomore
 
-###### **Git Commands**
+---
+# **Git Commands**
+---
 1. git init - To initialise an empty git repository in a directory.
 
 2. git status - To see the status of tracked and untracked files and wether they are connected or not.
@@ -64,9 +66,9 @@
 	- sudo apt-get autoremove - Removes unwanted dependencies
 	- sudo apt-get clean - Deletes all compressed package archives.
 
-<div style="page-break-after: always;"></div>
-
-###### **Creating Pull Requests on GitHub - Step by Step Process**
+---
+# **Creating Pull Requests on GitHub - Step by Step Process**
+---
 Creating a pull request (PR) on Git involves several steps. Here's a step-by-step procedure to create a pull request:
 
 1. **Fork the Repository**
@@ -116,9 +118,9 @@ Creating a pull request (PR) on Git involves several steps. Here's a step-by-ste
 
 Your pull request is now part of the main project, and your contributions have been successfully integrated. This process can vary slightly depending on the Git platform and the specific repository, but the general steps are consistent.
 
-<div style="page-break-after: always;"></div>
-
-###### **Contributing To Open-Source - Step By Step Process**
+---
+# **Contributing To Open-Source - Step By Step Process**
+---
 Contributing to open-source projects is a great way to gain experience and give back to the community. Here's a step-by-step procedure to get started with contributing to open-source projects
 
 1. **Select a Project**
@@ -185,12 +187,7 @@ Contributing to open-source projects is a great way to gain experience and give 
 
 Remember that each project may have its specific contribution guidelines and processes, so always check the project's documentation or CONTRIBUTING.md file for any project-specific instructions.
 
-<div style="page-break-after: always;"></div>
 
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="300"/>
-
-######    By GARVIT SINGH
-Information Technology
+Thanks For Reading! 💙  
+By GARVIT SINGH  
+Information Technology  
