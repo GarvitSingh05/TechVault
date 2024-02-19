@@ -186,7 +186,3 @@ Contributing to open-source projects is a great way to gain experience and give 
 	- Congratulations! Your contribution has been successfully merged. Continue contributing to the project and explore other open-source projects that interest you.  
 
 Remember that each project may have its specific contribution guidelines and processes, so always check the project's documentation or CONTRIBUTING.md file for any project-specific instructions.
-
-
-Thanks For Reading! 💙  
-*GARVIT SINGH*  
