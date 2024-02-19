@@ -1,5 +1,5 @@
-### Linux Commands 🔥
-##### **By Garvit Singh, IT Undergraduate**
+# Linux Commands 🔥
+## **By Garvit Singh**
 
 1. pwd - Prints the current working directory.
 
@@ -353,9 +353,5 @@ find . -type f -name *.txt -exec rm -rf {} +
 	 - Ctrl + D : Close Terminal
 	 - Note that these shortcuts might vary depending upon which Linux distribution you are using, or how you have cutomised the settings of your terminal.
 
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="300"/>
-
-######    By GARVIT SINGH
-Information Technology Undergraduate
+Thanks For Reading! 💙  
+*GARVIT SINGH*  
