@@ -1,4 +1,4 @@
-# Linux Commands 🔥
+# The Ultimate Guide To Linux Commands 🔥
 ## **By Garvit Singh**
 
 1. pwd - Prints the current working directory.
@@ -352,6 +352,3 @@ find . -type f -name *.txt -exec rm -rf {} +
 	 - Ctrl + Alt + D : Open Terminal
 	 - Ctrl + D : Close Terminal
 	 - Note that these shortcuts might vary depending upon which Linux distribution you are using, or how you have cutomised the settings of your terminal.
-
-Thanks For Reading! 💙  
-*GARVIT SINGH*  
