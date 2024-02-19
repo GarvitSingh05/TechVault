@@ -1,4 +1,4 @@
-# Operating System Notes
+# Operating Systems
 ## By Garvit Singh
 -----
 # Topics
