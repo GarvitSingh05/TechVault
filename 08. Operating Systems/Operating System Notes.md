@@ -680,7 +680,7 @@ When degree of multiprogramming in the RAM is too high, then it leads to increas
 ![](https://i.imgur.com/DZXF402.png)
 
 
-**Segmentation vs Paging**
+**Segmentation vs Paging**  
 Paging divides processes in a way where half of the instructions can be in one page, and the rest in some other page. This leads to incompleteness in instructions. We divide the process into pages without caring about what is written in them.
 
 Segmentation works on user's point of view. It doesnt divide a program directly like paging does. It creates segments of the program. These segments can be anything like functions etc. Size of each segment is of various sizes.
@@ -842,7 +842,7 @@ Q. A file system uses Unix Inode data structure which contains 8 direct block ad
 ------
 # Protection & Security in Operating Systems
 ------
-**Introduction**
+**Introduction**  
 In the digital world, operating systems (OS) act as the foundation for secure computing. Protection and security are crucial aspects of an OS, safeguarding its resources and ensuring seamless, reliable operation.
 
 **Understanding the Terms**
