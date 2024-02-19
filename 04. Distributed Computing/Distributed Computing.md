@@ -1,7 +1,9 @@
-### **Distributed Computing** Notes 🔥
-#### By Garvit Singh, IT Undergraduate
+# **Distributed Computing** Notes 🔥
+## By Garvit Singh
 
-###### **What are Distributed Systems?**
+---
+# **What are Distributed Systems?**
+---
 A distributed system is a collection of independent computers that appears to its users as a single coherent system. 
 
 It is a computing environment where multiple computers or nodes work together to achieve a common goal. 
@@ -41,9 +43,9 @@ Distributed Computing Techniques include :
 	- Bridges the gap between HPC & HTC.
 	- MTC is similar to High Throughput Computing, but it concentrates on the use of many computing resources over a short period of time to accomplish many computational tasks.
 
-<div style="page-break-after: always;"></div>
-
-###### **Remote Procedure Call(RPC)**
+---
+# **Remote Procedure Call(RPC)**
+---
 A Remote Procedure Call (RPC) is a protocol that enables a program to execute code or procedures on a remote server as if they were local, without the programmer explicitly coding the details for remote communication. 
 
 RPC allows programs to request services or functions from a server or another application running on a different machine or in a different process.
@@ -82,9 +84,9 @@ Common examples of RPC frameworks include gRPC, Apache Thrift, Java RMI etc.
 - Many RPC systems use IDL to define the interface between the client and server. 
 - The IDL provides a platform-independent way to describe data types, functions, and procedures, making it easier for client and server code to interact.
 
-<div style="page-break-after: always;"></div>
-
-###### **Distributed Object Frameworks**
+---
+# **Distributed Object Frameworks**
+---
 Also known as Distributed Object Computing (DOC) frameworks or Distributed Object Middleware, are software frameworks and technologies that facilitate the development of distributed applications by extending the concept of object-oriented programming to distributed systems. 
 
 Distributed Object Frameworks simplify the development of distributed systems by providing a higher-level, object-oriented abstraction for network communication. They have been used in various domains, including enterprise applications, telecommunications, and distributed systems where flexibility, scalability, and interoperability are critical.
@@ -121,9 +123,9 @@ Key features and concepts of Distributed Object Frameworks include:
 8. **Interoperability**
 - Distributed Object Frameworks aim to be platform-agnostic and support interoperability across various programming languages and platforms.
 
-<div style="page-break-after: always;"></div>
-
-###### **Popular Distributed Object Frameworks**
+---
+# **Popular Distributed Object Frameworks**
+---
 
 1. **Common Object Request Broker Architecture(CORBA)**
 - A platform-agnostic middleware that enables interoperability between objects in different languages and on different platforms.
@@ -138,9 +140,9 @@ Key features and concepts of Distributed Object Frameworks include:
 - A component architecture for building distributed business applications using Java. 
 - It provides a framework for building and running distributed, transactional, and secure enterprise applications.
 
-<div style="page-break-after: always;"></div>
-
-###### **Service-Oriented Architecture (SOA)**
+---
+# **Service-Oriented Architecture (SOA)**
+---
 It is a design approach and architectural style for developing software systems that promote the use of services as fundamental building blocks. 
 
 In SOA, a service is a self-contained, modular unit of functionality that is designed to be independent, reusable, and interoperable. 
@@ -183,9 +185,5 @@ The goal of SOA is to create a flexible and scalable architecture that supports 
 - SOA promotes the creation of composite applications through the assembly of services.
 
 
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="300"/>
-
-######    By GARVIT SINGH
-Information Technology
+Thanks For Reading! 💙  
+*GARVIT SINGH*  
