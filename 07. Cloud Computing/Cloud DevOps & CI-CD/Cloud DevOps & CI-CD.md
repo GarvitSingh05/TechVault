@@ -1,7 +1,6 @@
-### Cloud DevOps & CI/CD
-#### By Garvit Singh
-
-###### **Cloud DevOps & CI/CD**
+---
+# **Cloud DevOps & CI/CD**
+---
 Cloud DevOps and CI/CD are practices that help organizations streamline software development, testing, and deployment processes.
 
 **DevOps Principles in the Cloud**
@@ -45,13 +44,3 @@ CI/CD is a set of practices that automate and streamline the software developmen
 		- Performing automated tests in staging environments to verify that the new code works correctly and doesn't negatively impact production systems.
 		- If tests are successful, automatically promoting the code changes to production, making new features or bug fixes immediately available to end-users.
 	- CD accelerates the release process, reduces manual errors, and provides a mechanism for delivering new features and updates quickly and reliably.
-
-<div style="page-break-after: always;"></div>
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="350"/>
-
-###### **By GARVIT SINGH**
-Information Technology Undergraduate
-<div style="page-break-after: always;"></div>
