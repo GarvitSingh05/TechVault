@@ -1,7 +1,8 @@
-### Operating System Notes
-#### By Garvit Singh
-
-###### Syllabus
+# Operating System Notes
+## By Garvit Singh
+-----
+# Topics
+-----
 **Introduction**
 - Operating System Structure
 - Types of Operating Systems
@@ -87,9 +88,9 @@
 - Program Threats
 - System Threats Intrusion Detection
 
-<div style="page-break-after: always;"></div>
-
-###### Introduction To Operating Systems & It's Functions
+------
+# Introduction To Operating Systems & It's Functions
+------
 Operating system is a software which works in kernel mode as an interface between computer hardware and the applications for end users. Examples include Windows, Linux, Android, MacOS etc.
 
 Without an operating system, users would need to write commands or programs for every small task, making the interaction between user and hardware complex, tedious and time consuming.
@@ -107,9 +108,9 @@ Without an operating system, users would need to write commands or programs for 
 4. **Memory Management** - A process that needs to be executed needs to be brought into the RAM or primary memory. Allocation and deallocation of processes in RAM is managed by OS.
 5. **Security & Privacy** - Authentication, encryption, prevents processes from interfering other processes.
 
-<div style="page-break-after: always;"></div>
-
-###### Types of Operating Systems
+------
+# Types of Operating Systems
+------
 1. Batch
 2. Multi-programmed
 3. Multitasking
@@ -129,15 +130,11 @@ Without an operating system, users would need to write commands or programs for 
 - CPU doesnt move to next job when it is idle due to I/O operations, which led to lot of time-consumption and inefficiency.
 - Later on IBM came out with Fortran, IBSYS709X, which had monitors, and the jobs could be given to the CPU directly without needing an operator.
 
-<div style="page-break-after: always;"></div>
-
 **Multiprogrammed Operating System**
 - Non-preemptive CPU scheduling of multiple processes within a RAM.
 - Non-preemptive means CPU doesnt move to the next processes till it hasn't completely executed the current process, unless the process itself invokes an I/O operation or some other kind of interrupt.
 - In the meantime, the CPU moves to the next process.
 - This leads to better utilization of CPU, less CPU idleness, improved efficiency, higher throughput.
-
-<div style="page-break-after: always;"></div>
 
 **Multi-Tasking/Time Sharing Operating System**
 - Preemptive CPU Scheduling of multiple processes within a RAM.
@@ -145,16 +142,12 @@ Without an operating system, users would need to write commands or programs for 
 - If the process doesnt get executed in that time, it is scheduled to be executed again in future.
 - Leads to better response times, better responsiveness by the CPU. Along with that, all the advantages of multiprogramming OS is also present.
 
-<div style="page-break-after: always;"></div>
-
 **Real Time Operating System**
 - Two types - Hard & Soft Real Time OS.
 - Involves time constraints
 - There should be no delay between process invokation and execution by CPU.
 - Hard Real Time OS - No time constraints or delays allowed. Used in high priority critical applications where the responses have to be immediate. Applications include military, alarm systems etc.
 - Soft Real Time OS - Used in non-critical situations where some amount of delay can be tolerated. Applications are gaming, live video streaming etc.
-
-<div style="page-break-after: always;"></div>
 
 **Distributed Operating System**
 - The execution environment is distributed to multiple devices spread across in different geographical locations.
@@ -164,8 +157,6 @@ Without an operating system, users would need to write commands or programs for 
 - Availability and Fault tolerance is high.
 - Load balancing can be done.
 - Highly scalable.
-
-<div style="page-break-after: always;"></div>
 
 **Clustered Operating System**
 - Multiple devices connected to each other in a local network, creating a cluster.
@@ -179,10 +170,9 @@ Without an operating system, users would need to write commands or programs for 
 - Made for a fixed functionality.
 - Suitable for performing certain dedicated tasks repeatedly.
 - Used in microcontrollers.
-
-<div style="page-break-after: always;"></div>
-
-###### Process States & Lifecycle
+------
+# Process States & Lifecycle
+------
 ![](https://i.imgur.com/iMXm7MX.png)
 
 **New State**
@@ -218,9 +208,9 @@ Without an operating system, users would need to write commands or programs for 
 - 5th case, when the Ready state queue is full, and a process with very high priority arrives, then processes are momentarily put into the Suspend/Ready state, and are resumed back when the high priority process is executed and space is created in the Ready State queue. This is also done by Mid Term Scheduler(MTS).
 - Backing Store is done by MTS when Wait/Block queue is full and processes in Suspend/Wait state are waiting, so they are sent to the Suspend/Ready queue, and if the Ready Queue is also full, then the processes wait in the Suspend/Ready queue.
 
-<div style="page-break-after: always;"></div>
-
-###### System Calls
+-------
+# System Calls
+------
 A programmatic way to shift from user mode to kernel mode.
 
 1. File Related - For files. Open(), Read(), Write(), Close(), Create file etc.
@@ -230,16 +220,12 @@ A programmatic way to shift from user mode to kernel mode.
 5. Communication - Pipe(), Create/delete Connections, Shmget()
 6. Protection & Security related - chmod etc
 
-<div style="page-break-after: always;"></div>
-
 **Fork System Call**
 - Used to create a child process, which is a clone of the parent process, with a different ID.
 - Fork() returns 0 for child, +1 for parent, -1 if child couldn't be created.
 - The child process is executed parrallely and concurrently with the parent process.
 - Total number of processes = 2^n, where n is the number of times fork() has been invoked.
 - Total number of child processes = 2^n - 1, where n is the number of times fork() has been invoked.
-
-<div style="page-break-after: always;"></div>
 
 **User Mode vs Kernel Mode**
 - User mode has mode bit = 1
@@ -249,8 +235,6 @@ A programmatic way to shift from user mode to kernel mode.
 - Processor keeps switching between user and kernel mode.
 - System calls are invoked to switch from user mode to kernel mode. A trap is generated by system call and shifts the process into kernel mode.
 - The system call is executed in kernel mode and returns the result back into user mode.
-
-<div style="page-break-after: always;"></div>
 
 **Process vs Threads in Operating System**
 
@@ -263,7 +247,6 @@ A programmatic way to shift from user mode to kernel mode.
 | 5. Blocking a process will not block another process.  | 5. Blocking a thread will block entire process.  |
 | 6. Independent.  | 6. Interdependent.  |
 
-<div style="page-break-after: always;"></div>
 
 **User Level Thread vs Kernel Level Thread**
 
@@ -274,9 +257,9 @@ A programmatic way to shift from user mode to kernel mode.
 | 3. Context switching is faster. | 3. Context switching is slower. |
 | 4. If one user level thread performs blocking operation, then entire process gets blocked. | 4. If one kernel level thread blocked, it doesn't affect other threads. |
 
-<div style="page-break-after: always;"></div>
-
-###### CPU Process Scheduling Algorithms
+------
+# CPU Process Scheduling Algorithms
+------
 Two types - Preemptive & Non-Preemptive
 
 | Pre-Emptive Algorithms | Non Pre-Emptive Algorithms |
@@ -287,8 +270,6 @@ Two types - Preemptive & Non-Preemptive
 | 4. Priority based | 4. HRRN(Highest Response Ratio Next) |
 |  | 5. Multilevel Queue |
 
-<div style="page-break-after: always;"></div>
-
 **Timings in CPU Scheduling**
 1. Arrival Time - The time at which process enters the Ready queue or State.
 2. Burst Time - Time required by a process to get executed on CPU.
@@ -296,8 +277,6 @@ Two types - Preemptive & Non-Preemptive
 4. Turn Around Time = { Completion Time - Arrival Time }
 5. Waiting Time = { Turn Around Time - Burst Time }
 6. Response Time = { Time at which a process gets CPU first time - Arrival Time }
-
-<div style="page-break-after: always;"></div>
 
 **First Come First Serve(FCFS) CPU Scheduling Algorithm**
 1. Criteria : Arrival Time.
@@ -309,8 +288,6 @@ Two types - Preemptive & Non-Preemptive
 
 ![](https://i.imgur.com/3MffTJa.png)
 
-<div style="page-break-after: always;"></div>
-
 **Shortest Job First(SJF) CPU Scheduling Algorithm**
 1. Criteria : Processes with least Burst Time.
 2. Mode : Non - Preemptive.
@@ -321,8 +298,6 @@ Two types - Preemptive & Non-Preemptive
 
 ![](https://i.imgur.com/KH3gxI6.png)
 
-<div style="page-break-after: always;"></div>
-
 **Shortest Job First with Preemption(SJF + Preemption) CPU Scheduling Algorithm**
 1. SJF with Preemption is also known as **Shortest Remaining Time First(SRTF)** Scheduling Algorithm.
 2. Criteria : Burst Time.
@@ -331,15 +306,12 @@ Two types - Preemptive & Non-Preemptive
 5. If two processes have equal burst time, then consider their arrival times. The process with lower arrival time gets executed first.
 6. Response time will be different than waiting time, because of preemption.
 
-<div style="page-break-after: always;"></div>
-
 **Round Robin(RR) CPU Scheduling Algorithm**
 1. Criteria : Time Quantum
 2. Mode : Preemptive
 3. Use two Gantt charts for Ready Queue and Running Queue. Based on the given Time Quantum value, the arrival and burst times of processes, we calculate the CT, TAT, WT, RT.
 4. **Context switching** happens when a running process is preempted back into the Ready Queue from the Running Queue when it has run for the specified Time Quantum value. The context of the Process Control Block of the running process is saved and the process is sent back to the Ready Queue and a new process is brought in to be executed.
 
-<div style="page-break-after: always;"></div>
 
 **Pre-Emptive Priority CPU Scheduling Algorithm**
 1. Criteria : Priority.
@@ -347,8 +319,6 @@ Two types - Preemptive & Non-Preemptive
 3. Wether Higher Number = Higher Priority OR Lower Number = Higher Priority. Will be given in the question.
 4. Based on the priority of processes, arrival and burst times, we calculate the CT, TAT, WT. Use Gantt chart for Running Queue.
 5. In case of equal priority of two processes, use their arrival time. The one with lower arrival time gets executed first.
-
-<div style="page-break-after: always;"></div>
 
 **Multilevel Queue Scheduling**
 ![](https://i.imgur.com/aif3Olw.png)
@@ -359,16 +329,14 @@ Two types - Preemptive & Non-Preemptive
 4. Batch Processes are background processes, have lowest priority scheduled using FCFS algorithm.
 5. Drawback is that the response times of batch processes will be very high, because the system processes will keep the CPU occupied leaving less time for interactive and batch processes to execute. This is the problem of starvation. This drawback is overcome by Multilevel Feedback Queue Scheduling.
 
-<div style="page-break-after: always;"></div>
-
 **Multilevel Feedback Queue Scheduling**
 1. Lowest priority processes face the problem of starvation, which can be solved by feedback, where a low priority processes is progressively upgraded to a higher priority queue each time it is executed for a defined time quantum.
 2. Processes which are already high priority do not face the problem of starvation.
 3. The lowest priority process is executed for some time quantum, or it can be any algorithm for that matter. It is then given an upgrade to a queue having a higher priority and this process continues to the highest priority queue till the process has been executed completely.
 
-<div style="page-break-after: always;"></div>
-
-###### Process Synchronization
+------
+# Process Synchronization
+------
 - Multiple processes can run in either serial mode, which means one process in execution at a time or in parallel mode, where multiple processes are executed parallely at one moment.
 - Two types of Processes - Cooperative Processes & Independent Processes.
 - The execution of one cooperaive process has effects on other processes, because they share something in common. This can be variable, memory, code, resources like CPU, Printer etc.
@@ -389,9 +357,7 @@ Two types - Preemptive & Non-Preemptive
 - Q. Readers Writers Problem Using Binary Semaphore.
 - Q. Dining Philosophers Problem Using Semaphore.
 
-<div style="page-break-after: always;"></div>
-
-==Producer Consumer Problem==
+Producer Consumer Problem
 C language program for consumer:
 1. load Rc, m[count]
 2. DECR Rc
@@ -448,9 +414,7 @@ The buffer and count variables are shared by both producer and consumer program.
 | 6 |
 | 7 |
 
-<div style="page-break-after: always;"></div>
-
-==Printer Spooler Problem==
+Printer Spooler Problem
 1. Load Ri, m[in]
 2. Store SD[Ri], "F-N"
 3. INCR Ri
@@ -478,9 +442,7 @@ Keep incrementing the 'in' variable and keep storing the processes in the spoole
 
 Rule 1 & 2 are primary conditions, they have to be fulfilled. Rule 3 & 4 are secondary conditions, which means they are not compulsory for synchronization, but we try to implement them.
 
-<div style="page-break-after: always;"></div>
-
-==Critical Section Solution Using 'Lock'==
+Critical Section Solution Using 'Lock'
 ```C
 do{
 	acquire lock
@@ -496,9 +458,7 @@ do{
 Lock 0 means critical section is vacant
 Lock 1 means critical section is full
 
-<div style="page-break-after: always;"></div>
-
-==Critical Section Solution Using 'Test_and_Set' Instruction==
+Critical Section Solution Using 'Test_and_Set' Instruction
 ```C
 while(test_and_set(&lock)){
 CS
@@ -511,9 +471,7 @@ return r;
 }
 ```
 
-<div style="page-break-after: always;"></div>
-
-==Critical Section Solution Using 'Turn Variable(Strict Alteration)' Method==
+Critical Section Solution Using 'Turn Variable(Strict Alteration)' Method
 - 2 process solution
 - Runs in user mode
 
@@ -523,9 +481,7 @@ return r;
 | CS | critical section | critical section |
 | Exit Code : | turn = 1; | turn = 0; |
 
-<div style="page-break-after: always;"></div>
-
-==Process Synchronization Using Semaphores==
+Process Synchronization Using Semaphores
 Semaphore is an integer variable which is used in mutual exclusive manner by various concurrent cooperative processes in order to achieve synchronization. Two types - Counting(-Infinity to +Infinity) and Binary(0, 1).
 
 Two Operations:
@@ -557,9 +513,7 @@ Up(Semaphore S){
 }
 ```
 
-<div style="page-break-after: always;"></div>
-
-==Binary Semaphores==
+Binary Semaphores
 C Pseudocode for Down
 ```C
 Down(Semaphore S){
@@ -585,10 +539,9 @@ Up(Semaphore S){
 	}
 }
 ```
-
-<div style="page-break-after: always;"></div>
-
-###### Deadlocks
+-----
+# Deadlocks
+-----
 - If two or more processes are waiting for happening of some event, which never happens, then we say that these processes are involved in a state that is called deadlock.
 - Two processes mutually waiting for an event, which never happens, this state is called deadlock.
 
@@ -597,8 +550,6 @@ Up(Semaphore S){
 2. No Pre-emption.
 3. Hold & Wait.
 4. Circular Wait.
-
-<div style="page-break-after: always;"></div>
 
 **Resource Allocation Graph(RAG)**
 To represent how the resources are allocated to processes, assigned multiple resources, RAG is used. Two types - Single Instance RAG & Multiple Instance RAG.
@@ -609,27 +560,23 @@ Methods to handle deadlocks:
 2. **Deadlock Prevention** - Prevent the 4 necessary conditions of deadlock formation from occuring, or atleast try to remove one of the condition, effectively preventing a deadlock. Prevent any four or all four.
 3. **Deadlock Avoidance**(Banker's Algorithm) - Every time we allocate resources to a process, we check wether it is safe or unsafe to do it, and wether it will cause a deadlock. Banker's algo solves this problem.
 4. **Deadlock Detection & Recovery** - We detect wether there is a deadlock, and if a deadlock is found, we try to recover the system from it.
-
-<div style="page-break-after: always;"></div>
-
-###### Memory Management
+------
+# Memory Management
+------
 - Methods of managing primary memory for efficient utilization of memory.
 - Anything that CPU works upon has to be brought into the RAM or the primary memory first.
 - Degree of Multiprogramming focuses on bringing as many processes in the RAM as possible, so that the CPU is utilized properly, thereby increasing the performance of the system.
 - Larger the number of processes in the RAM, the better CPU utilization is.
 - This responsibility of bringing processes from secondary storage to the primary memory, preferably as many as possible is given to the Operating System.
 
-<div style="page-break-after: always;"></div>
-
 **Memory Management Techniques**
 1. Contiguous - Fixed Partition(or Static), Variable Partition(or Dynamic)
 2. Non-Contiguous - Paging, Multilevel Paging, Inverted Paging, Segmentation, Segmented Paging
 ![](https://i.imgur.com/eIMZC1e.png)
 
-<div style="page-break-after: always;"></div>
 
 **Contiguous Memory Management**
-==Fixed Size Partitioning | Internal Fragmentation==
+*Fixed Size Partitioning | Internal Fragmentation*
 - No of partitions are fixed.
 - Size of each partition may or may not be same.
 - Contiguous allocation, so spanning is not allowed.
@@ -638,9 +585,7 @@ Methods to handle deadlocks:
 - Limited degree of multiprogramming : You cannot store processes that are more in number than the partitions, because of fixed paritions. If there are 4 partitions, you can store only 4 processes, and their sizes are also limited by the maximum size allowed in their respective partitions.
 - External Fragmentation : Although we have availability of space, we cannot store a process because the space is in multiple different slots.
 
-<div style="page-break-after: always;"></div>
-
-==Variable Size Partitioning | Dynamic Partitioning==
+*Variable Size Partitioning | Dynamic Partitioning*  
 Partitions are not pre-made, memory is allocated to processes as and when they come. Variable sized partitions are made in runtime.
 
 Advantages:
@@ -654,9 +599,8 @@ Disadvantages:
 3. Compaction can be used but is undesirable because to shift a process, we first have to stop it from execution.
 4. Allocation & Deallocation is complex because the number of partitions and processes is not fixed.
 
-<div style="page-break-after: always;"></div>
 
-==Allocation Methods In Contiguous Memory Management==
+Allocation Methods In Contiguous Memory Management
 **First Fit**
 Allocate the first hole that is big enough.
 
@@ -695,7 +639,7 @@ Slow.
 
 
 **Non-Contiguous Memory Management**
-==Paging==
+Paging
 - Process can be divided and stored in multiple spanning memory locations. 
 - Solves the problem of external fragmentation.
 - The division of a process is a costly process because holes in memory are created dynamically and their size keeps changing.
@@ -710,7 +654,6 @@ Slow.
 - The number of entries in the page table of a process will be equal to the number of pages a process has been divided into.
 - CPU works on logical address. Logical address has page number and page offset. Offset means size of page. This logical address is converted to physical address by the MMU and then it performs mapping.
 
-<div style="page-break-after: always;"></div>
 
 **Page Table Entries**
 The fields included in a page table are:
@@ -730,9 +673,8 @@ Instead of keeping a page table for all processes, a single global page table is
 
 Inverted page table has high searching times because of which it did not gain much popularity. Inverted page table saves memory but compromises on time. Nowadays, memory is getting cheaper and cheaper, but time is limited. Saving time is more preferable as compared to memory.
 
-<div style="page-break-after: always;"></div>
 
-==Thrashing==
+**Thrashing**  
 When degree of multiprogramming in the RAM is too high, then it leads to increasing number of page faults, leading to page fault service times, which takes a page from the secondary memory and is very time consuming. This degrades the performance of the system. This scenario where degree of multiprogramming, instead of improving CPU utilization, it worsens it due to page faults is called thrashing. Solution is to either increase main memory, which may not be very viable. Another solution is to use a Long Term Scheduler(LTS).
 
 ![](https://i.imgur.com/DZXF402.png)
@@ -746,17 +688,13 @@ Segmentation works on user's point of view. It doesnt divide a program directly 
 Segment Table contains the segment number, base address and the size of each segment.
 ![](https://i.imgur.com/qAuKsso.png)
 
-<div style="page-break-after: always;"></div>
-
-==Overlay==
+**Overlay**
 - A process with a large size, which is larger than the main memory itself can be accomodated in the main memory with overlay.
 - Operating systems do not provide any driver for overlay. 
 - The process is partitioned by the user itself, and each partition is brought into the main memory, executed by CPU and stored back in secondary memory, and the next process partition is brought into the RAM, and this continues till all partitions are done.
 - The order at which partitions are going to be executed becomes very important.
 - Overlay is used in embedded systems where the functionality is always fixed.
 - Partitions created have to be independent. that means it should not be like one part of the code is in one partition and the other part is in second partition.
-
-<div style="page-break-after: always;"></div>
 
 **Virtual Memory**
 ![](https://i.imgur.com/OK4BRe2.png)
@@ -768,17 +706,15 @@ If a process page is not found in page table, a trap is generated, and context s
 Lets say 'p' is the probability that page fault occurs. Then,  
 Effective Memory Access Time (EMAT) = p(page fault service time) + (1-p)(main memory access time)
 
-<div style="page-break-after: always;"></div>
-
-==Page Replacement Algorithms==
+**Page Replacement Algorithms**
 1. FIFO - First In First Out
 2. Optimal Page Replacement - Replace the page whose demand will be most late, which is not supposed to be used for longest dimension of time in future.
 3. Least Recently Used(LRU) - Replace the least recently used page in past.
 4. Most Recently Used(MRU) - Replace the most recently used page in past.
 
-<div style="page-break-after: always;"></div>
-
-###### Hard Disk Architecture In Operating Systems
+------
+# Hard Disk Architecture In Operating Systems
+------
 - Multiple *platters* are connected together by a spindle and spin together in either clockwise or anticlockwise direction.
 - Each platter has an upper surface and a lower surface.
 - Each platter has a *read/write head* and all the heads are connected to an *Actuator Arm*. They are used for writing and retrieval of data and move back and forth on the platter.
@@ -788,8 +724,6 @@ Effective Memory Access Time (EMAT) = p(page fault service time) + (1-p)(main me
 - Data is stored in sectors.
 - Platter -> Surfaces -> Tracks -> Sectors -> Data
 
-<div style="page-break-after: always;"></div>
-
 **Disk Access Time**
 1. Seek Time - Time taken by R/W head to reach desired track.
 2. Rotational Time - Time taken for one full rotation(360 degrees).
@@ -797,7 +731,6 @@ Effective Memory Access Time (EMAT) = p(page fault service time) + (1-p)(main me
 4. Transfer Time - Data to be Transfer/Transfer Rate
 5. Transfer Rate(Data Rate) - No. of heads/surfaces X Capacity of one Track X No. of rotations in one second
 
-<div style="page-break-after: always;"></div>
 
 **Disk Scheduling Algorithms**
 Goal : To minimize seek time.
@@ -808,14 +741,10 @@ Goal : To minimize seek time.
 5. C-SCAN(Circular SCAN)
 6. C-LOOK(Circular LOOK)
 
-<div style="page-break-after: always;"></div>
-
 **FCFS**
 - The R/W head serves the requests in the request queue in a first come first serve manner.
 - Direction is not necessary, the R/W head decides in which direction to move based on the request.
 - Calculate the total number of R/W movement.
-
-<div style="page-break-after: always;"></div>
 
 **SSTF**
 - The R/W head serves the requests which have the lowest seek time from its current position.
@@ -824,8 +753,6 @@ Goal : To minimize seek time.
 - At every step, calculations have to be done for the shortest distance.
 - Direction is not necessary, the R/W head decides in which direction to move based on which request is closest.
 - Calculate the total number of R/W movement.
-
-<div style="page-break-after: always;"></div>
 
 **SCAN**
 - Also called Elevator algorithm.
@@ -836,15 +763,11 @@ Goal : To minimize seek time.
 - Disadvantage is that once the R/W head changes its direction, it will serve all the requests in that direction first, even if a request in the previous direction is much closer. Starvation of requests can occur.
 - Calculate the total number of R/W movement.
 
-<div style="page-break-after: always;"></div>
-
 **LOOK**
 - LOOK is similar to SCAN but the R/W head here doesnt need to move till the end of one direction.
 - The R/W head serves all directions in one direction, goes till the last request and changes its direction from there.
 - The extra distance covered by SCAN is not there in LOOK.
 - Calculate the total number of R/W movement.
-
-<div style="page-break-after: always;"></div>
 
 **C-SCAN(Circular SCAN)**
 - Direction must be known.
@@ -853,8 +776,6 @@ Goal : To minimize seek time.
 - The R/W head now serves all the pending requests by starting from the extreme position, be it start or end.
 - Calculate the total number of R/W movement.
 
-<div style="page-break-after: always;"></div>
-
 **C-LOOK(Circular LOOK)**
 - Direction must be known.
 - The R/W head serves all request in the specified direction, and changes direction from the last request and goes till the last request of the other end.
@@ -862,9 +783,9 @@ Goal : To minimize seek time.
 - The R/W head after reaching the last request of the other end, now serves all the remaining requests.
 - Calculate the total number of R/W movement.
 
-<div style="page-break-after: always;"></div>
-
-###### File System In Operating System
+------
+# File System In Operating System
+-----
 File system manages how data is to be stored or fetched. Files are logically divided into blocks and these blocks are then mapped onto the sectors in a hard disk. This mapping may or may not be contiguous.
 
 **File Attributes & Operations**
@@ -880,14 +801,12 @@ File system manages how data is to be stored or fetched. Files are logically div
 |  | 7. Protection/Permission |
 |  | 8. Encryption, Compression |
 
-<div style="page-break-after: always;"></div>
-
 **File Allocation Methods**
 1. Contiguous Allocation
 2. Non-Contiguous Allocation - Linked List Allocation, Indexed Allocation
 These methods aim for efficient disk utilization and faster access times.
 
-==Contiguous File Allocation==
+*Contiguous File Allocation*
 Advantages
 1. Easy to implement.
 2. Excellent read performance.
@@ -896,7 +815,7 @@ Disadvantages
 1. Disk will become fragmented.
 2. Difficult to grow file.
 
-==Linked List File Allocation==
+*Linked List File Allocation*
 Advantages
 1. No external fragmentation.
 2. File size can increase.
@@ -906,9 +825,7 @@ Disadvantages
 2. Random acess/Direct acess difficult.
 3. Overhead of Pointers.
 
-<div style="page-break-after: always;"></div>
-
-==Indexed File Allocation==
+*Indexed File Allocation*
 Advantages
 1. Supports direct access.
 2. No external fragmentation.
@@ -917,16 +834,14 @@ Disadvantages
 1. Pointer overhead(high number of pointers used).
 2. Multilevel Index(for very large files).
 
-<div style="page-break-after: always;"></div>
-
 **Unix Inode Structure**
 Unix Inode is a data structure that contains File attributes, direct blocks, single indirect blocks, double indirect blocks and triple indirect blocks. It is a hybrid approach that overcomes the shortcomings of the previous file allocation methods. 'I' is Index, 'Node' is the block in Inode.
 
 Q. A file system uses Unix Inode data structure which contains 8 direct block addresses, one indirect block, one double and triple indirect block. The size of each block is 128 Bytes and size of each block address is 8 Bytes. Find the maximum possible file size?
 
-<div style="page-break-after: always;"></div>
-
-###### Protection & Security in Operating Systems
+------
+# Protection & Security in Operating Systems
+------
 **Introduction**
 In the digital world, operating systems (OS) act as the foundation for secure computing. Protection and security are crucial aspects of an OS, safeguarding its resources and ensuring seamless, reliable operation.
 
@@ -941,15 +856,11 @@ In the digital world, operating systems (OS) act as the foundation for secure co
 
 5. **Availability:** Authorized users should have uninterrupted access to system resources.
 
-<div style="page-break-after: always;"></div>
-
 **Protection Mechanisms**
 - **User Authentication:** Mechanisms like usernames/passwords, biometrics, or multi-factor authentication verify user identity before granting access.
 - **Resource Access Control:** Access permissions define which users and programs can access specific resources (files, devices, etc.).
 - **Memory Management:** Techniques like memory isolation and virtualization prevent processes from interfering with each other's memory space.
 - **System Integrity Protection:** Features like code signing and secure boot verify the authenticity and integrity of system software.
-
-<div style="page-break-after: always;"></div>
 
 **Security Measures**
 - **Firewall:** Monitors incoming and outgoing network traffic, blocking unauthorized access attempts.
@@ -957,22 +868,16 @@ In the digital world, operating systems (OS) act as the foundation for secure co
 - **System Updates:** Regular updates patch vulnerabilities and address security flaws.
 - **Physical Security:** Measures like access control lists and surveillance cameras prevent unauthorized physical access to the system.
 
-<div style="page-break-after: always;"></div>
-
 **Key Points**
 - Protection and security are essential for reliable and secure computing.
 - They address both internal and external threats.
 - The CIA triad (confidentiality, integrity, and availability) serves as a guiding principle.
 - Various mechanisms and measures work together to achieve protection and security.
 
-<div style="page-break-after: always;"></div>
-
 **Goals of protection**
 - In one protection model, computer consists of a collection of objects, hardware or software.
 - Each object has a unique name and can be accessed through a well defined set of operations.
 - Protection problem - ensure that each object is accessed correctly and only by those processes that are allowed to do so.
-
-<div style="page-break-after: always;"></div>
 
 **Security Violation Categories**  
 - Breach of confidentiality - Unauthorized reading of data.
@@ -980,8 +885,6 @@ In the digital world, operating systems (OS) act as the foundation for secure co
 - Breach of Availability - Unauthorized destruction of data.
 - Theft of Service - Unauthorized use of resources.
 - Denial of Service(DOS) - Prevention of legitimate use.
-
-<div style="page-break-after: always;"></div>
 
 **Further Exploration**
 - Explore specific protection and security features in different operating systems (Windows, Linux, macOS).
