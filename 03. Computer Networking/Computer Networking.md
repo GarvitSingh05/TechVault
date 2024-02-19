@@ -1,4 +1,4 @@
-# **Computer Networking Notes** 🔥
+# **Computer Networking** 🔥
 ## **By Garvit Singh**
 
 ---
@@ -447,6 +447,3 @@ This was all about the Transport Layer of TCP/IP Model. Now, moving onto the Net
 <img src="https://i.imgur.com/YfCxZno.png" alt="PL" width="300"/>
 
 - Hardware section like the Wires, Optical Fibre Cables, Coaxial Cables, Routers, CPU, Memory, RAM etc.
-  
-Thanks For Reading! 💙  
-*GARVIT SINGH*  
