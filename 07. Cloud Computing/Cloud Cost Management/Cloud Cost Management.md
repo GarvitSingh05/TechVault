@@ -1,6 +1,3 @@
-# Cloud Cost Management
-## By Garvit Singh
-
 ---
 # **Cloud Cost Management**
 ---
