@@ -1,7 +1,6 @@
-### Cloud Migration
-#### By Garvit Singh
-
-###### **Cloud Migration**
+---
+# **Cloud Migration**
+---
 Cloud migration is the process of moving an organization's data, applications, and workloads from on-premises or legacy infrastructure to cloud-based environments. 
 
 The choice of migration approach should align with the organization's goals, the nature of its applications, and the resources available for the migration project. 
@@ -42,10 +41,3 @@ Developing a comprehensive cloud migration strategy is crucial for a successful 
 	- **Monitoring and Optimization**: Continuously monitor performance, costs, and resource utilization in the cloud and optimize as needed.
 	- **Staff Training**: Provide training for IT staff and developers to ensure they understand cloud best practices and tools.
 	- **Documentation**: Maintain comprehensive documentation to track configurations, processes, and dependencies during and after migration.
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="350"/>
-
-###### **By GARVIT SINGH**
-Information Technology Undergraduate
