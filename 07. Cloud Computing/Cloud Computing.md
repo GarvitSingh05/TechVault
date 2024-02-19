@@ -177,7 +177,7 @@ There are different approaches to virtualization, including hypervisors, contain
 - Virtual machines or containers encapsulate the application and its dependencies, allowing it to run consistently across different environments, from on-premises servers to public or private clouds. 
 - This portability simplifies deployment, migration, and scaling of applications.
 
-**Execution Virtualization**
+**Execution Virtualization**  
 A technology that enables the creation of virtual environments or virtual machines (VMs) within a physical computing system. 
 
 These virtual environments mimic the behavior of actual physical hardware or software, allowing multiple isolated instances to run concurrently on the same physical machine.
@@ -376,7 +376,7 @@ Common examples of RPC frameworks include gRPC, Apache Thrift, Java RMI etc.
 - Many RPC systems use IDL to define the interface between the client and server. 
 - The IDL provides a platform-independent way to describe data types, functions, and procedures, making it easier for client and server code to interact.
 
-**Distributed Object Frameworks**
+**Distributed Object Frameworks**  
 Also known as Distributed Object Computing (DOC) frameworks or Distributed Object Middleware, are software frameworks and technologies that facilitate the development of distributed applications by extending the concept of object-oriented programming to distributed systems. 
 
 Distributed Object Frameworks simplify the development of distributed systems by providing a higher-level, object-oriented abstraction for network communication. They have been used in various domains, including enterprise applications, telecommunications, and distributed systems where flexibility, scalability, and interoperability are critical.
@@ -428,7 +428,7 @@ Key features and concepts of Distributed Object Frameworks include:
 - A component architecture for building distributed business applications using Java. 
 - It provides a framework for building and running distributed, transactional, and secure enterprise applications.
 
-**Service-Oriented Architecture (SOA)**
+**Service-Oriented Architecture (SOA)**  
 It is a design approach and architectural style for developing software systems that promote the use of services as fundamental building blocks. 
 
 In SOA, a service is a self-contained, modular unit of functionality that is designed to be independent, reusable, and interoperable. 
@@ -487,7 +487,7 @@ The goal of SOA is to create a flexible and scalable architecture that supports 
 - Parallel processing provides a cost-effective solution by increasing the number of CPUs in a computer and by adding an efficient communication system between them.
 - The workload can now be shared between different processors. This results in higher computing power and performance than a single processor system.
 
-**Hardware Architectures for Parallel Processing**
+**Hardware Architectures for Parallel Processing**  
 The core elements of parallel processing are CPUs. Based on a number of instruction and data streams that can be processed simultaneously, computing systems are classified into four categories:
 - Single Instruction Single Data (SISD)
 - Single Instruction Multiple Data (SIMD)
@@ -706,7 +706,7 @@ Effective cloud cost management involves a combination of selecting the right bi
 ---
 Cloud DevOps and CI/CD are practices that help organizations streamline software development, testing, and deployment processes.
 
-**DevOps Principles in the Cloud**
+**DevOps Principles in the Cloud**  
 DevOps is a set of practices and principles that aim to bridge the gap between development and operations teams, fostering collaboration and automation to deliver high-quality software faster. 
 
 In a cloud context, DevOps principles are applied to cloud-based infrastructure, platforms, and applications. Some key principles include:
@@ -730,7 +730,7 @@ Integrating security into the DevOps process, with a focus on automation, monito
 Embracing a culture of continuous improvement through iterative development and frequent updates.
 
 
-**Continuous Integration &Continuous Deployment (CI/CD)**
+**Continuous Integration &Continuous Deployment (CI/CD)**  
 CI/CD is a set of practices that automate and streamline the software development and release process, enabling frequent and reliable software delivery.
 
 1. **Continuous Integration (CI)**
@@ -1046,7 +1046,7 @@ Artificial Intelligence (AI) and Machine Learning (ML) are computational techniq
 
 Leveraging AI and ML in the cloud offers scalability, accessibility, and ease of deployment. 
 
-**Cloud-Based AI/ML Services**
+**Cloud-Based AI/ML Services**  
 Cloud providers offer a range of services that facilitate the development, training, and deployment of AI and ML models. These services are designed to make it easier for organizations to incorporate AI and ML capabilities into their applications. Some key cloud-based AI/ML services include:
 
 1. **Amazon SageMaker (AWS)**
@@ -1068,7 +1068,7 @@ Cloud providers offer a range of services that facilitate the development, train
 	- IBM Watson offers AI and ML services that encompass natural language processing, computer vision, and decision optimization.
 	- It provides tools for data preparation, model training, and deployment, as well as support for developing chatbots and AI-powered applications.
 
-**Model Training and Deployment**
+**Model Training and Deployment**  
 AI and ML models typically go through two key phases: training and deployment.
 
 1. **Model Training**
