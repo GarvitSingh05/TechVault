@@ -1,7 +1,6 @@
-### Integrating Edge Computing With Cloud
-#### By Garvit Singh
-
-###### **Edge Computing and Its Integration with the Cloud**
+---
+# **Edge Computing and Its Integration with the Cloud**
+---
 Edge computing is a distributed computing paradigm that involves processing data closer to the data source or "edge" of the network, rather than sending all data to a centralized cloud server. Edge computing complements cloud computing in IoT in the following ways:
 
 **Low Latency**
@@ -36,12 +35,3 @@ Edge computing is a distributed computing paradigm that involves processing data
 **Data Storage in the Cloud**
 - Cloud resources are still valuable for long-term storage, advanced analytics, and cross-device data aggregation. 
 - Data from IoT devices can be archived in the cloud for historical analysis, predictive maintenance, and trend analysis.
-
-<div style="page-break-after: always;"></div>
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="350"/>
-
-###### **By GARVIT SINGH**
-Information Technology Undergraduate
