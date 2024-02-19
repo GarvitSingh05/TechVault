@@ -1,7 +1,6 @@
-### Cloud Networking
-#### By Garvit Singh
-
-###### **Networking In The Cloud**
+---
+# **Networking In The Cloud**
+---
 Networking is a critical component of cloud computing that facilitates the communication of data and services within and outside the cloud environment. It includes various technologies and services designed to ensure efficient, secure, and reliable data transmission. 
 
 Networking in the cloud is crucial for connecting and managing cloud resources, ensuring data flows securely and efficiently, and optimizing the performance of cloud-based applications.
@@ -30,10 +29,3 @@ Networking in the cloud is crucial for connecting and managing cloud resources, 
 	- Virtual networks are dynamic and programmable, enabling network administrators to define network policies, routing rules, and access controls using software rather than hardware.
 	- This flexibility and programmability are particularly valuable in cloud environments where network configurations can change frequently. 
 	- Virtual networks also enable the creation of secure network overlays for multi-tenant environments.
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="350"/>
-
-###### **By GARVIT SINGH**
-Information Technology Undergraduate
