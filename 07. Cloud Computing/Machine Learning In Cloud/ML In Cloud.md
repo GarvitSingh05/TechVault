@@ -1,7 +1,6 @@
-### Machine Learning In Cloud
-#### By Garvit Singh
-
-###### **Artificial Intelligence and Machine Learning in the Cloud**
+---
+# **Artificial Intelligence & Machine Learning in the Cloud**
+---
 Artificial Intelligence (AI) and Machine Learning (ML) are computational techniques that enable systems to learn from data, recognize patterns, make predictions, and perform tasks without explicit programming. 
 
 Leveraging AI and ML in the cloud offers scalability, accessibility, and ease of deployment. 
@@ -28,7 +27,9 @@ Cloud providers offer a range of services that facilitate the development, train
 	- IBM Watson offers AI and ML services that encompass natural language processing, computer vision, and decision optimization.
 	- It provides tools for data preparation, model training, and deployment, as well as support for developing chatbots and AI-powered applications.
 
-**Model Training and Deployment**
+---
+# **Model Training and Deployment**
+---
 AI and ML models typically go through two key phases: training and deployment.
 
 1. **Model Training**
@@ -40,11 +41,3 @@ AI and ML models typically go through two key phases: training and deployment.
 	- Once an ML model is trained, it needs to be deployed so that it can be used to make predictions or provide insights in real-time.
 	- Cloud services make model deployment straightforward, with features like auto-scaling, load balancing, and integration with other cloud services.
 	- Models can be deployed as web services or APIs, making it easy to integrate them into web and mobile applications.
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="350"/>
-
-###### **By GARVIT SINGH**
-Information Technology Undergraduate
-
