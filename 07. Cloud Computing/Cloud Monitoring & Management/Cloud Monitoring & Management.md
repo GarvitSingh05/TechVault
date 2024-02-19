@@ -1,7 +1,6 @@
-### Cloud Monitoring & Management
-#### By Garvit Singh
-
-###### **Cloud Monitoring & Management Tools**
+---
+# **Cloud Monitoring & Management Tools**
+---
 Monitoring and management tools are essential for efficiently and effectively operating and maintaining cloud environments. These tools help organizations manage their resources, detect issues, and optimize performance
 
 1. **Cloud Management Platforms**
@@ -28,10 +27,3 @@ Monitoring and management tools are essential for efficiently and effectively op
 		- **Auto Scaling**: Cloud providers offer auto-scaling features that automatically adjust the number of instances based on traffic and resource utilization.
 		- **Cost Optimization Tools**: These tools analyze cloud spending and provide recommendations for optimizing costs while maintaining performance.
 		- **Resource Tagging**: Properly tagging cloud resources enables organizations to track and allocate costs, improving cost visibility and control.
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="350"/>
-
-###### **By GARVIT SINGH**
-Information Technology Undergraduate
