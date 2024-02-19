@@ -1,8 +1,10 @@
 # Software Testing
 # Principles, Practices & Techniques
 # By Garvit Singh
- 
+
+---
 ## The Fundamental Principles Of Testing
+---
 1. The goal of testing is to find defects before customers find them out.
 2. Exhaustive testing is not possible; program testing can only show the presence of defects, never their absence.
 3. Testing applies all through the software life cycle and is not an end-of-cycle activity.
@@ -54,8 +56,9 @@
 - Train people first before expecting them to be productive.
 - Do not expect overnight returns from automation.
 
-
+---
 ## Software Development Life Cycle Models
+---
 6 Phases of a Software Project
 - Requirements gathering and analysis
 - Planning
@@ -105,7 +108,9 @@
 - Adaptive maintenance can be like making the software run on a newer version of an operating system.
 - Preventive maintenance is about changing the code to avoid a potential security hole that is not covered by the operating system.
 
+---
 ## Difference In Quality Assurance & Quality Control
+---
 For each software feature, the *expected behaviour* is characterized by a set of test cases. Each test case is characterized by :
 1. The environment under which the test case is to be executed.
 2. Inputs that should be provided for that test case.
@@ -152,8 +157,9 @@ Two methods for ensuring that the chances of the product meeting its requirement
 | 4. To build the product right, certain activities or conditions or procedures are imposed at the beginning of life cycle. These activities are considered '*proactive*' as their purpose is to prevent defects before they take shape. The process activities in each phase is termed as verification. | 4. To build the right product, certain activites are carried out during various phases to validate wether the product is built as per specifications. These activites are considered '*reactive*'. |
 | 5. Ex - Requirements review, design review, code review etc. | 5. Ex - Unit testing, Integration testing, System testing etc. |
 
-
+---
 ## Process Models To Represent Phases
+---
 A process model is a way to represent each phase of a software project and is characterized by :
 1. Entry criteria specifies when the phase can be started. Inputs for the phase are also included. A clear entry criteria makes sure that a phase doesn't start prematurely.
 2. Tasks or steps that need to be carried out in that phase. 
@@ -163,7 +169,9 @@ A process model is a way to represent each phase of a software project and is ch
 This model is known as the **E**ntry **T**ask **V**erification E**x**it or ETVX Model.
 
 
+---
 ## Life Cycle Models
+---
 A life cycle model describes how the phases combine together to form a complete project or life cycle. Such a model is characterized by the following attributes :
 1. The activities performed
 2. The deliverables from each activity.
@@ -199,8 +207,10 @@ Some Life Cycle Models include :
 ![](https://i.imgur.com/19y0EH4.png)
 
 
+---
 # Types Of Testing
 ## White Box Testing
+---
 ![](https://i.imgur.com/D0uk6Dy.png)
 
 - White box testing is a way of testing the external functionality of the code by examining and testing the program code that realizes the external functionality.
@@ -402,8 +412,9 @@ Cyclomatic Complexity = Edges(E) - Node(N) + 2 = Number of Predicate Nodes + 1
 - Fully tested code may not correspond to realistic scenarios.
 - This doesn't mean white box testing is ineffective. These challenges can be overcome by involving other types of testing along with white box testing.
 
-
+---
 ## Black Box Testing
+---
 *What is Black Box Testing?*  
 - Black box testing is done to know the external functionality of what the product should do.
 - Doesn't look at the program code but looks at the product from an external perspective.
@@ -622,8 +633,9 @@ Benefits of user documentation testing include:
 | To test domain expertise rather than product specification. | Domain Testing |
 | To ensure that the documentation is consistent with the product. | Documentation Testing |
 
-
+---
 ## Integration Testing
+---
 - A system is made up of multiple components or modules comprising hardware and software.
 - Integration is defined as the set of interactions among components.
 - Testing the interaction between the modules and interaction with other systems externally is called integration testing.
@@ -678,7 +690,6 @@ Step Interfaces tested
 
 - Bi-directional integration is a combination of the top-down and bottom-up integration together to derive integration steps.
 - Comes handy when migrating from a two-tier to a three-tier environment.
-
 
 **System Integration**  
 System integration means that all the components of the system are integrated and tested as a single unit.
@@ -762,8 +773,9 @@ All the activities in the defect bash are planned activities, except for what to
 5. Taking actions and fixing issues.
 6. Optimizing the effort involved in defect bash.
 
-
+---
 ## System Testing
+---
 - System testing is defined as a testing phase conducted on the complete integrated system, to evaluate the system compliance with its specified requirements.
 - It is done after unit, component, and integration testing phases.
 - The testing conducted on the complete integrated products and solutions to evaluate system compliance with specified requirements on functional and nonfunctional aspects is called system testing.
@@ -1020,8 +1032,9 @@ Guidelines that help in improving interoperability.
 4. *Communication and messages* - When a message is passed on from a system A to system B, if any and the message is lost or gets garbled the product should be tested to check how it responds to such user requesting him to wait for sometime until it recovers the connection.
 5. *Meeting quality factors* - When two or more products are put together, there is an additional requirement of information exchange between them.
 
-
+---
 ## Regression Testing
+---
 **What is Regression Testing?**
 - Regression testing is done to ensure that changes work as designed and do not have any unintended side-effects.
 - Regression tests acknowledge that new fixes can cause new 'side effects' and can also cause some older defects to appear.
@@ -1180,8 +1193,9 @@ If you are not satisfied with the workaround, then it should be considered as a 
 4. Ask your best test engineer to select the test cases.
 5. Detect defects, and protect your product from defects and defect fixes.
 
-
+---
 ## Performance Testing
+---
 - The testing performed to evaluate the response time, throughput, and utilization of the system, to execute its required functions in comparison with different versions of the same product or a different competitive product is called performance testing.
 - Performance testing is complex and expensive due to large resource requirements and the time it takes.
 - A good number of defects that get uncovered during performance testing may require design and architecture change.
@@ -1349,8 +1363,9 @@ Capacity planning corresponding to short, medium and long-term requirements:
 4. Set up product traces, audits, internal and external traces, logs etc.
 5. Decide the entry and exit criteria.
 
-
+---
 ## Ad Hoc Testing
+---
 - Testing done without using any formal testing technique and without any formal planning is called ad hoc testing.
 - It is done to explore the undiscovered areas in the product by using intuition, previous experience in working with the product, expert knowledge of the platform or technology, and experience of testing a similar product.
 - Ad hoc testing does not make use of any of the test case design techniques like equivalence partitioning, boundary value analysis, and so on.
@@ -1475,8 +1490,9 @@ The rules that are followed in extreme programming and testing are as follows:
 | Deal with changing requirements. | Iterative Testing |
 | Make frequent releases with customer involvement in product development. | Agile/Extreme Testing |
 
-
+---
 ## A Checklist For Test Planning, Management, Execution and Reporting
+---
 *Scope Related*
 - Have you identified the features to be tested?
 - Have you identified the features not to be tested?
@@ -1547,8 +1563,9 @@ The rules that are followed in extreme programming and testing are as follows:
 - Have you defined the entry and exit criteria for the various test phases?
 - Have you defined the suspension and resumption criteria for the various tests?
 
-
+---
 ## A Template For Test Plan
+---
 1. Introduction
 	- Scope - What features are to be tested and what features will not be tested; what combinations of environment are to be tested and what not.
 2. References
@@ -1582,8 +1599,9 @@ The rules that are followed in extreme programming and testing are as follows:
 12. Metrics Plan
 13. Product Release Criteria
 
-
+---
 ## Software Test Automation
+---
 **What is Test Automation?**  
 Developing software to test the software is called test automation. Addresses several problems like:
 1. Automation saves time as software can execute test cases faster than human do.
