@@ -1,7 +1,9 @@
-### Cloud Architecture
-#### By Garvit Singh
+# Cloud Architecture
+## By Garvit Singh
 
-###### **Cloud Architecture**
+---
+# **Introduction To Cloud Architecture**
+---
 Cloud architecture refers to the design and structure of a cloud computing environment, including the arrangement of its components, services, and technologies.
 
 1. **Microservices**
@@ -32,10 +34,3 @@ Cloud architecture refers to the design and structure of a cloud computing envir
 	- Cloud architectures are designed with scalability and high availability in mind. 
 	- This often involves redundancy, load balancing, and the use of multiple availability zones or data centers.
 	- Scalability and high availability are essential for ensuring that cloud services can meet the demands of users and provide a consistent and reliable experience.
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="350"/>
-
-###### **By GARVIT SINGH**
-Information Technology Undergraduate
