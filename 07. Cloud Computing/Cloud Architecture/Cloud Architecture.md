@@ -1,6 +1,3 @@
-# Cloud Architecture
-## By Garvit Singh
-
 ---
 # **Introduction To Cloud Architecture**
 ---
