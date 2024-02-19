@@ -1,7 +1,6 @@
-### Cloud Security
-#### By Garvit Singh
-
-###### **Cloud Security**
+---
+# **Cloud Security**
+---
 Cloud security is a critical aspect of cloud computing, focused on safeguarding data, applications, and resources in cloud environments. 
 
 It encompasses a range of practices and technologies to protect cloud-based assets from unauthorized access, data breaches, and other security threats.
@@ -31,10 +30,3 @@ It encompasses a range of practices and technologies to protect cloud-based asse
 	- Governance includes setting up policies, procedures, controls to manage cloud resources, ensure cost-efficiency, and maintain data privacy and security.
 
 A comprehensive cloud security strategy combines these components to create a robust defense against security threats in cloud environments.
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="350"/>
-
-###### **By GARVIT SINGH**
-Information Technology Undergraduate
