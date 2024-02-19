@@ -1,4 +1,4 @@
-# Parallel Computing Notes 🔥
+# Parallel Computing 🔥
 ## By Garvit Singh
 
 ---
@@ -74,7 +74,3 @@ The core elements of parallel processing are CPUs. Based on a number of instruct
 - A job distribution approach is used.
 - One processor is configured as the master and all others are designated as the slaves.
 - The master processor assigns jobs to the slave processors, and they inform the master processor upon completion. Master collects the results.
-
-
-Thanks For Reading! 💙  
-*GARVIT SINGH*  
