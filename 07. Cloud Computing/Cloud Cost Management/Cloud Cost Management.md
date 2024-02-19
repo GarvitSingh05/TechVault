@@ -1,7 +1,9 @@
-### Cloud Cost Management
-#### By Garvit Singh
+# Cloud Cost Management
+## By Garvit Singh
 
-###### **Cloud Cost Management**
+---
+# **Cloud Cost Management**
+---
 Cloud cost management is a critical aspect of utilizing cloud computing services effectively while controlling and optimizing expenses.
 
 Effective cloud cost management involves a combination of selecting the right billing model, implementing cost optimization strategies, and continually monitoring and analyzing your cloud usage.
@@ -30,10 +32,3 @@ Effective cloud cost management involves a combination of selecting the right bi
 		- **Budget Alerts**: Set up alerts to notify you when spending exceeds predefined thresholds, helping you avoid unexpected overages.
 		- **Resource Tagging**: Use tags to categorize resources by project, department, or application, making it easier to track and allocate costs accurately.
 		- **Third-Party Cost Management Tools**: Consider using third-party tools and services that provide more advanced cost management features, analytics, and optimization recommendations.
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="350"/>
-
-###### **By GARVIT SINGH**
-Information Technology Undergraduate
