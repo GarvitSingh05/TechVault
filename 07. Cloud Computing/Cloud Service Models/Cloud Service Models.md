@@ -1,12 +1,14 @@
-### Cloud Service Models
-#### By Garvit Singh
-
-###### **What is a Cloud?**
+---
+# Cloud Service Models
+## **What is a Cloud?**
+---
 A cloud is a type of parallel and distributed system consisting of a collection of interconnected and virtualized computers that are dynamically provisioned and presented as one or more unified computing resources based on service-level agreements established through negotiation between the service provider and consumers.
 
 It is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction.
 
-###### **Benefits of Cloud Computing**
+---
+# **Benefits of Cloud Computing**
+---
 1. Large enterprises can offload some of their activities to Cloud-based systems.
 2. Small enterprises and start-ups can afford to translate their ideas into business results more quickly without excessive upfront costs.
 3. System developers can concentrate on the business logic rather than dealing with the complexity of infrastructure management and scalability.
@@ -17,7 +19,9 @@ It is a model for enabling ubiquitous, convenient, on-demand network access to a
 8. Simplified application acceleration and scalability.
 9. Efficient resource allocation & energy efficiency.
 
-###### **Cloud Service Models**
+---
+# **Cloud Service Models**
+---
 Each layer provides a different service to users. 
 
 IaaS solutions are sought by users that want to leverage Cloud computing from building dynamically scalable computing systems requiring a specific software stack. IaaS services are therefore used to develop scalable websites or for background processing.
@@ -61,12 +65,3 @@ PaaS solutions provide scalable programming platforms for developing application
 	- FaaS is an excellent choice for applications that have variable workloads and need to respond quickly to events.
 	- It's commonly used for web applications, microservices, data processing, and IoT (Internet of Things) applications.
 	- Ex - AWS Lambda, Azure Functions, Google Cloud Functions, IBM Cloud Functions, Alibaba Cloud Function Compute etc.
-
-<div style="page-break-after: always;"></div>
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="350"/>
-
-###### **By GARVIT SINGH**
-Information Technology Undergraduate
