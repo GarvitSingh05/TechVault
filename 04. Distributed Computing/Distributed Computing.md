@@ -1,4 +1,4 @@
-# **Distributed Computing** Notes 🔥
+# **Distributed Computing** 🔥
 ## By Garvit Singh
 
 ---
@@ -183,7 +183,3 @@ The goal of SOA is to create a flexible and scalable architecture that supports 
 8. **Composability**
 - Composability refers to the ability to combine and orchestrate services to create more complex, higher-level applications. 
 - SOA promotes the creation of composite applications through the assembly of services.
-
-
-Thanks For Reading! 💙  
-*GARVIT SINGH*  
