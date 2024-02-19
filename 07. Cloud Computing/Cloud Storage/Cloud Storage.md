@@ -1,7 +1,6 @@
-### Cloud Storage
-#### By Garvit Singh
-
-###### **Cloud Storage**
+---
+# **Cloud Storage**
+---
 Cloud storage is a fundamental component of cloud computing, providing scalable and on-demand storage resources that can be accessed over the internet.
 
 Object storage is suitable for unstructured data and web applications, block storage provides low-level access for structured data, file storage enables shared file systems, and CDNs improve the performance and security of content delivery. 
@@ -30,10 +29,3 @@ Object storage is suitable for unstructured data and web applications, block sto
 	- When a user requests content from a website, the CDN serves the content from the nearest server to reduce latency and improve load times.
 	- CDNs not only enhance content delivery but also protect websites from DDoS attacks by distributing traffic and providing additional security features.
 	- Leading CDN providers include Akamai, Cloudflare, and Amazon CloudFront.
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="350"/>
-
-###### **By GARVIT SINGH**
-Information Technology Undergraduate
