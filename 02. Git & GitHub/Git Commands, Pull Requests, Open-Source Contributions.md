@@ -1,5 +1,5 @@
 # Guide to Git Commands, Open-Source Contributions, Creating Pull Requests
-## By Garvit Singh, IT Sophomore
+## By Garvit Singh
 
 ---
 # **Git Commands**
@@ -189,5 +189,4 @@ Remember that each project may have its specific contribution guidelines and pro
 
 
 Thanks For Reading! 💙  
-By GARVIT SINGH  
-Information Technology  
+*GARVIT SINGH*  
