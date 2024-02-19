@@ -1,7 +1,6 @@
-### Cloud Deployment Models
-#### By Garvit Singh
-
-###### **Cloud Deployment Models**
+---
+# **Cloud Deployment Models**
+---
 4 Models : Public, Private, Hybrid, Community
 
 1. **Public Cloud**
@@ -27,10 +26,3 @@
 	- It can be hosted by one of the organizations, a third-party provider, or a consortium of organizations.
 	- Access to a community cloud is typically restricted to the members of the community, ensuring that data and applications are shared among trusted parties.
 	- Community clouds are common in sectors like healthcare, finance, and government, where multiple organizations need to collaborate while adhering to specific standards.
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="350"/>
-
-###### **By GARVIT SINGH**
-Information Technology Undergraduate
