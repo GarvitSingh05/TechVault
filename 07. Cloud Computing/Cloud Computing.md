@@ -1,7 +1,9 @@
-### Cloud Computing Notes 🔥
-#### By Garvit Singh, IT Undergraduate
+# Cloud Computing 🔥
+## By Garvit Singh
 
-###### **List Of All Topics Covered**
+---
+# **List Of All Topics Covered**
+---
 - Cloud Service Models
 - Cloud Deployment Models
 - Virtualization
@@ -26,14 +28,16 @@
 - Integrating Edge Computing With The Cloud
 - AI & ML in the Cloud
 
-<div style="page-break-after: always;"></div>
-
-###### **What is a Cloud?**
+---
+# **What is a Cloud?**
+---
 A cloud is a type of parallel and distributed system consisting of a collection of interconnected and virtualized computers that are dynamically provisioned and presented as one or more unified computing resources based on service-level agreements established through negotiation between the service provider and consumers.
 
 It is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction.
 
-###### **Benefits of Cloud Computing**
+---
+# **Benefits of Cloud Computing**
+---
 1. Large enterprises can offload some of their activities to Cloud-based systems.
 2. Small enterprises and start-ups can afford to translate their ideas into business results more quickly without excessive upfront costs.
 3. System developers can concentrate on the business logic rather than dealing with the complexity of infrastructure management and scalability.
@@ -44,9 +48,9 @@ It is a model for enabling ubiquitous, convenient, on-demand network access to a
 8. Simplified application acceleration and scalability.
 9. Efficient resource allocation & energy efficiency.
 
-<div style="page-break-after: always;"></div>
-
-###### **Cloud Service Models**
+---
+# **Cloud Service Models**
+---
 Each layer provides a different service to users. 
 
 IaaS solutions are sought by users that want to leverage Cloud computing from building dynamically scalable computing systems requiring a specific software stack. IaaS services are therefore used to develop scalable websites or for background processing.
@@ -91,9 +95,9 @@ PaaS solutions provide scalable programming platforms for developing application
 	- It's commonly used for web applications, microservices, data processing, and IoT (Internet of Things) applications.
 	- Ex - AWS Lambda, Azure Functions, Google Cloud Functions, IBM Cloud Functions, Alibaba Cloud Function Compute etc.
 
-<div style="page-break-after: always;"></div>
-
-###### **Cloud Deployment Models**
+---
+# **Cloud Deployment Models**
+---
 4 Models : Public, Private, Hybrid, Community
 
 1. **Public Cloud**
@@ -120,9 +124,9 @@ PaaS solutions provide scalable programming platforms for developing application
 	- Access to a community cloud is typically restricted to the members of the community, ensuring that data and applications are shared among trusted parties.
 	- Community clouds are common in sectors like healthcare, finance, and government, where multiple organizations need to collaborate while adhering to specific standards.
 
-<div style="page-break-after: always;"></div>
-
-###### **Virtualization**
+---
+# **Virtualization**
+---
 Virtualization is a technology that allows you to create multiple virtual instances of computer resources within a single physical machine. 
 
 It enables better resource utilization, improved scalability, and increased flexibility in managing and deploying applications and services. 
@@ -296,9 +300,9 @@ These virtual environments mimic the behavior of actual physical hardware or sof
 8. **Limited Hardware Support**
 - Virtualization may not support certain types of hardware or require specific hardware features for optimal performance, limiting hardware choices.
 
-<div style="page-break-after: always;"></div>
-
-###### **Distributed Computing**
+---
+# **Distributed Computing**
+---
 A distributed system is a collection of independent computers that appears to its users as a single coherent system. 
 
 It is a computing environment where multiple computers or nodes work together to achieve a common goal. 
@@ -466,9 +470,9 @@ The goal of SOA is to create a flexible and scalable architecture that supports 
 - Composability refers to the ability to combine and orchestrate services to create more complex, higher-level applications. 
 - SOA promotes the creation of composite applications through the assembly of services.
 
-<div style="page-break-after: always;"></div>
-
-###### **Parallel Computing**
+---
+# **Parallel Computing**
+---
 1. Parallel Systems refer to tightly coupled systems. 
 2. The term 'Parallel Computing' refers to a model where the computation is divided among several processors sharing the same memory. 
 3. The architecture of a parallel computing system is characterised by homogeneity of components, each processor is of the same type and posseses the same capabilities. 
@@ -534,9 +538,9 @@ The core elements of parallel processing are CPUs. Based on a number of instruct
 - One processor is configured as the master and all others are designated as the slaves.
 - The master processor assigns jobs to the slave processors, and they inform the master processor upon completion. Master collects the results.
 
-<div style="page-break-after: always;"></div>
-
-###### **Cloud Security**
+---
+# **Cloud Security**
+---
 Cloud security is a critical aspect of cloud computing, focused on safeguarding data, applications, and resources in cloud environments. 
 
 It encompasses a range of practices and technologies to protect cloud-based assets from unauthorized access, data breaches, and other security threats.
@@ -567,9 +571,9 @@ It encompasses a range of practices and technologies to protect cloud-based asse
 
 A comprehensive cloud security strategy combines these components to create a robust defense against security threats in cloud environments.
 
-<div style="page-break-after: always;"></div>
-
-###### **Cloud Architecture**
+---
+# **Cloud Architecture**
+---
 Cloud architecture refers to the design and structure of a cloud computing environment, including the arrangement of its components, services, and technologies.
 
 1. **Microservices**
@@ -601,7 +605,9 @@ Cloud architecture refers to the design and structure of a cloud computing envir
 	- This often involves redundancy, load balancing, and the use of multiple availability zones or data centers.
 	- Scalability and high availability are essential for ensuring that cloud services can meet the demands of users and provide a consistent and reliable experience.
 
-###### **Cloud Storage**
+---
+# **Cloud Storage**
+---
 Cloud storage is a fundamental component of cloud computing, providing scalable and on-demand storage resources that can be accessed over the internet.
 
 Object storage is suitable for unstructured data and web applications, block storage provides low-level access for structured data, file storage enables shared file systems, and CDNs improve the performance and security of content delivery. 
@@ -631,9 +637,9 @@ Object storage is suitable for unstructured data and web applications, block sto
 	- CDNs not only enhance content delivery but also protect websites from DDoS attacks by distributing traffic and providing additional security features.
 	- Leading CDN providers include Akamai, Cloudflare, and Amazon CloudFront.
 
-<div style="page-break-after: always;"></div>
-
-###### **Networking In The Cloud**
+---
+# **Networking In The Cloud**
+---
 Networking is a critical component of cloud computing that facilitates the communication of data and services within and outside the cloud environment. It includes various technologies and services designed to ensure efficient, secure, and reliable data transmission. 
 
 Networking in the cloud is crucial for connecting and managing cloud resources, ensuring data flows securely and efficiently, and optimizing the performance of cloud-based applications.
@@ -663,9 +669,9 @@ Networking in the cloud is crucial for connecting and managing cloud resources, 
 	- This flexibility and programmability are particularly valuable in cloud environments where network configurations can change frequently. 
 	- Virtual networks also enable the creation of secure network overlays for multi-tenant environments.
 
-<div style="page-break-after: always;"></div>
-
-###### **Cloud Cost Management**
+---
+# **Cloud Cost Management**
+---
 Cloud cost management is a critical aspect of utilizing cloud computing services effectively while controlling and optimizing expenses.
 
 Effective cloud cost management involves a combination of selecting the right billing model, implementing cost optimization strategies, and continually monitoring and analyzing your cloud usage.
@@ -695,9 +701,9 @@ Effective cloud cost management involves a combination of selecting the right bi
 		- **Resource Tagging**: Use tags to categorize resources by project, department, or application, making it easier to track and allocate costs accurately.
 		- **Third-Party Cost Management Tools**: Consider using third-party tools and services that provide more advanced cost management features, analytics, and optimization recommendations.
 
-<div style="page-break-after: always;"></div>
-
-###### **Cloud DevOps & CI/CD**
+---
+# **Cloud DevOps & CI/CD**
+---
 Cloud DevOps and CI/CD are practices that help organizations streamline software development, testing, and deployment processes.
 
 **DevOps Principles in the Cloud**
@@ -742,9 +748,9 @@ CI/CD is a set of practices that automate and streamline the software developmen
 		- If tests are successful, automatically promoting the code changes to production, making new features or bug fixes immediately available to end-users.
 	- CD accelerates the release process, reduces manual errors, and provides a mechanism for delivering new features and updates quickly and reliably.
 
-<div style="page-break-after: always;"></div>
-
-###### **Serverless Computing**
+---
+# **Serverless Computing**
+---
 Serverless computing is a cloud computing model that allows developers to build and run applications without managing the underlying server infrastructure. 
 
 In a serverless architecture, the cloud provider takes care of server provisioning, scaling, maintenance, and server management, allowing developers to focus solely on writing code to handle specific functions or tasks.
@@ -776,9 +782,9 @@ It offers the benefits of cost-effectiveness, scalability, and reduced operation
 	- In an event-driven architecture, events (such as user actions, data changes, or system alerts) trigger the execution of functions in a serverless environment.
 	- Event-driven systems are highly responsive and can scale automatically to meet demand, making them suitable for applications with variable workloads and real-time processing requirements.
 
-<div style="page-break-after: always;"></div>
-
-###### **Containers & Orchestration**
+---
+# **Containers & Orchestration**
+---
 **Containers**
 - Containers are lightweight, standalone, and executable packages that include everything needed to run a piece of software, including the code, runtime, system tools, libraries, and settings.
 - Containers provide consistency across development, testing, and production environments. 
@@ -808,9 +814,9 @@ Container orchestration tools help with the following tasks:
 - **Rolling Updates**: Replacing old container versions with new ones without causing service downtime.
 - **Health Monitoring**: Continuously checking the health of containers and restarting or replacing unhealthy ones.
 
-<div style="page-break-after: always;"></div>
-
-###### **Cloud Migration**
+---
+# **Cloud Migration**
+---
 Cloud migration is the process of moving an organization's data, applications, and workloads from on-premises or legacy infrastructure to cloud-based environments. 
 
 The choice of migration approach should align with the organization's goals, the nature of its applications, and the resources available for the migration project. 
@@ -852,9 +858,9 @@ Developing a comprehensive cloud migration strategy is crucial for a successful 
 	- **Staff Training**: Provide training for IT staff and developers to ensure they understand cloud best practices and tools.
 	- **Documentation**: Maintain comprehensive documentation to track configurations, processes, and dependencies during and after migration.
 
-<div style="page-break-after: always;"></div>
-
-###### **Cloud Monitoring & Management Tools**
+---
+# **Cloud Monitoring & Management Tools**
+---
 Monitoring and management tools are essential for efficiently and effectively operating and maintaining cloud environments. These tools help organizations manage their resources, detect issues, and optimize performance
 
 1. **Cloud Management Platforms**
@@ -883,7 +889,9 @@ Monitoring and management tools are essential for efficiently and effectively op
 		- **Resource Tagging**: Properly tagging cloud resources enables organizations to track and allocate costs, improving cost visibility and control.
 
 
-###### **Data Life Cycle Management**
+---
+# **Data Life Cycle Management**
+---
 Data Lifecycle Management (DLM) refers to the process of managing data throughout its entire lifecycle, from creation or acquisition to archival or deletion.
 
 1. **Data Creation and Collection**:
@@ -904,9 +912,9 @@ Data Lifecycle Management (DLM) refers to the process of managing data throughou
 6. **Data Security and Access Control**:
 	- Throughout the lifecycle, data should be protected using security measures like encryption, access controls, and monitoring.
 
-<div style="page-break-after: always;"></div>
-
-###### **Disaster Recovery**
+---
+# **Disaster Recovery**
+---
 Disaster recovery refers to the processes and tools used to recover an organization's IT systems, data, and infrastructure after a disaster or disruptive event. 
 
 The primary goal of DR is to minimize downtime and data loss, ensuring that essential business functions can be restored as quickly as possible.
@@ -916,9 +924,9 @@ The primary goal of DR is to minimize downtime and data loss, ensuring that esse
 - Common backup methods include full, incremental, and differential backups, as well as off-site or cloud-based backups for added redundancy.
 - Regular testing of backup and restore procedures is essential to ensure they work as intended when needed.
 
-<div style="page-break-after: always;"></div>
-
-###### **Business Continuity**
+---
+# **Business Continuity**
+---
 Business continuity focuses on maintaining essential business functions and operations during and after a disruptive event. 
 
 It encompasses not only IT recovery but also other aspects of the organization, such as personnel, facilities, and communication.
@@ -928,9 +936,9 @@ It encompasses not only IT recovery but also other aspects of the organization, 
 - For example, clustering, load balancers, and active-active configurations ensure that if one component or server fails, another can immediately take over, ensuring continuity of service.
 - Cloud providers offer high availability features and services to enhance resilience of the systems being built upon them.
 
-<div style="page-break-after: always;"></div>
-
-###### **Cloud & IoT**
+---
+# **Cloud & IoT**
+---
 The Internet of Things refers to the network of physical objects or "things" that are embedded with sensors, software, and connectivity to collect and exchange data over the internet. 
 
 IoT devices can range from simple sensors and actuators to complex, intelligent machines. The main idea is to enable these devices to communicate, analyze data, and make decisions, often with little or no human intervention. 
@@ -949,9 +957,9 @@ Cloud computing plays a pivotal role in IoT by providing the infrastructure, dat
 4. **Security**
 - Cloud providers implement robust security measures to protect IoT data in transit and at rest. They also offer identity and access management solutions to secure IoT device communication and control access to the cloud resources.
 
-<div style="page-break-after: always;"></div>
-
-###### **Edge Computing and Its Integration with the Cloud**
+---
+# **Edge Computing and Its Integration with the Cloud**
+---
 Edge computing is a distributed computing paradigm that involves processing data closer to the data source or "edge" of the network, rather than sending all data to a centralized cloud server. Edge computing complements cloud computing in IoT in the following ways:
 
 **Low Latency**
@@ -987,9 +995,9 @@ Edge computing is a distributed computing paradigm that involves processing data
 - Cloud resources are still valuable for long-term storage, advanced analytics, and cross-device data aggregation. 
 - Data from IoT devices can be archived in the cloud for historical analysis, predictive maintenance, and trend analysis.
 
-<div style="page-break-after: always;"></div>
-
-###### **Serverless Architectures**
+---
+# **Serverless Architectures**
+---
 Serverless computing is a cloud computing paradigm that allows developers to build and run applications without managing the underlying server infrastructure. In a serverless architecture, cloud providers automatically manage server provisioning, scaling, and maintenance, allowing developers to focus exclusively on writing code to handle specific functions or tasks. Key features of serverless architectures include:
 
 **Function as a Service (FaaS)**
@@ -1008,8 +1016,9 @@ Serverless computing is a cloud computing paradigm that allows developers to bui
 **Event-Driven**
 - Serverless applications are inherently event-driven, responding to triggers and events that initiate the execution of specific functions.
 
-
-###### **Event-Driven Architectures**
+---
+# **Event-Driven Architectures**
+---
 Event-driven architectures are a design approach in which software components communicate and interact through events. Events are typically generated by various system components, such as user actions, data changes, or external integrations. These events trigger actions or functions that respond to the event. Key characteristics of event-driven architectures include:
 
 **Loose Coupling**
@@ -1030,9 +1039,9 @@ Event-driven architectures are a design approach in which software components co
 - Event-driven systems are highly flexible and adaptable. 
 - They can respond to a wide range of events and can be easily extended or modified to accommodate new event types or changes in business logic.
 
-<div style="page-break-after: always;"></div>
-
-###### **Artificial Intelligence and Machine Learning in the Cloud**
+---
+# **Artificial Intelligence and Machine Learning in the Cloud**
+---
 Artificial Intelligence (AI) and Machine Learning (ML) are computational techniques that enable systems to learn from data, recognize patterns, make predictions, and perform tasks without explicit programming. 
 
 Leveraging AI and ML in the cloud offers scalability, accessibility, and ease of deployment. 
@@ -1071,12 +1080,3 @@ AI and ML models typically go through two key phases: training and deployment.
 	- Once an ML model is trained, it needs to be deployed so that it can be used to make predictions or provide insights in real-time.
 	- Cloud services make model deployment straightforward, with features like auto-scaling, load balancing, and integration with other cloud services.
 	- Models can be deployed as web services or APIs, making it easy to integrate them into web and mobile applications.
-
-
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="350"/>
-
-######    By GARVIT SINGH
-Information Technology
