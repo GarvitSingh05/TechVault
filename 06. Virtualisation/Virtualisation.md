@@ -1,7 +1,9 @@
-### Virtualization Notes 🔥
-#### By Garvit Singh, IT Undergraduate
+# Deep Dive Into Virtualization 🔥
+## By Garvit Singh
 
-###### **What is Virtualization?**
+---
+# **What is Virtualization?**
+---
 Virtualization is a technology that allows you to create multiple virtual instances of computer resources within a single physical machine. 
 
 It enables better resource utilization, improved scalability, and increased flexibility in managing and deploying applications and services. 
@@ -28,9 +30,9 @@ There are different approaches to virtualization, including hypervisors, contain
 	- VMs offer strong isolation between workloads, making them suitable for scenarios where security and complete separation are crucial.
 	- VMs can be used for various purposes, from running legacy applications to creating test environments and disaster recovery solutions.
 
-<div style="page-break-after: always;"></div>
-
-###### **Characterstics Of Virtualized Environments**
+---
+# **Characterstics Of Virtualized Environments**
+---
 1. **Increased Security**
 - Virtualization enhances security in several ways. By isolating workloads or applications in separate virtual machines (VMs) or containers, vulnerabilities in one component are less likely to impact others. 
 - Security policies and access controls can be applied at the virtualization layer to protect data and resources. Snapshots and backups in virtualized environments make disaster recovery and data protection more accessible.
@@ -54,9 +56,9 @@ There are different approaches to virtualization, including hypervisors, contain
 - Virtual machines or containers encapsulate the application and its dependencies, allowing it to run consistently across different environments, from on-premises servers to public or private clouds. 
 - This portability simplifies deployment, migration, and scaling of applications.
 
-<div style="page-break-after: always;"></div>
-
-###### **Execution Virtualization**
+---
+# **Execution Virtualization**
+---
 A technology that enables the creation of virtual environments or virtual machines (VMs) within a physical computing system. 
 
 These virtual environments mimic the behavior of actual physical hardware or software, allowing multiple isolated instances to run concurrently on the same physical machine.
@@ -98,9 +100,9 @@ These virtual environments mimic the behavior of actual physical hardware or sof
 - This approach encapsulates an application and its dependencies into a self-contained package, making it portable and isolated from the host environment. 
 - Examples include application virtualization solutions like VMware ThinApp and Microsoft App-V.
 
-<div style="page-break-after: always;"></div>
-
-###### **Other Types Of Virtualization**
+---
+# **Other Types Of Virtualization**
+---
 1. **Storage Virtualization**
 - Storage virtualization abstracts and pools physical storage resources from various storage devices into a single virtual storage unit. 
 - This abstraction allows for centralized management and improved utilization of storage capacity. 
@@ -122,9 +124,9 @@ These virtual environments mimic the behavior of actual physical hardware or sof
 - This is accomplished by abstracting the underlying server hardware and operating system, allowing applications to operate in isolated environments. 
 - This approach simplifies application deployment, improves resource utilization, and enhances application availability and scalability.
 
-<div style="page-break-after: always;"></div>
-
-###### **Advantages & Disadvantages Of Virtualization**
+---
+# **Advantages & Disadvantages Of Virtualization**
+---
 **Advantages**
 1. **Resource Consolidation**
 - Virtualization allows multiple virtual machines (VMs) to run on a single physical server, which optimizes resource utilization. 
@@ -182,12 +184,3 @@ These virtual environments mimic the behavior of actual physical hardware or sof
 
 8. **Limited Hardware Support**
 - Virtualization may not support certain types of hardware or require specific hardware features for optimal performance, limiting hardware choices.
-
-
-Thanks For Reading! 💙
-
-<img src="https://i.imgur.com/rOlCWgG.jpg" alt="GS" width="300"/>
-
-######    By GARVIT SINGH
-Information Technology
-<div style="page-break-after: always;"></div>
