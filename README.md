@@ -1,4 +1,6 @@
-## List Of Topics
+## TechVault - A Repository Dedicated To Computer Science 🔥
+
+### List Of Topics
 01. [Linux](https://github.com/GarvitSingh05/computer-science-notes/blob/main/01.%20Linux/Linux%20Commands.md)  
 
 02. [Git/GitHub](https://github.com/GarvitSingh05/computer-science-notes/blob/main/02.%20Git%20%26%20GitHub/Git%20Commands%2C%20Pull%20Requests%2C%20Open-Source%20Contributions.md)  
